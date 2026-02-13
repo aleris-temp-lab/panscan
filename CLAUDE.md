@@ -578,10 +578,11 @@ If you're a new Claude instance picking up this project:
 Update this section as you complete work:
 
 ```
-Current Phase: 1 - Foundation
-Last Completed Task: All apps and packages created, builds passing
-Next Task: Write Supabase migrations 001-004
+Current Phase: 1 - Foundation (nearly complete)
+Last Completed Task: Supabase migrations run, code pushed to GitHub
+Next Task: Deploy to Vercel (3 projects)
 Blockers: None
+GitHub: https://github.com/aleris-labs/panscan
 ```
 
 ### Key Commands

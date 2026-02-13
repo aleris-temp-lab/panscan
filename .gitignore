@@ -46,3 +46,7 @@ coverage
 *.local
 *.pdf
 .claude/
+
+# Session logs (private)
+SESSION_DIARY.md
+SESSION_NOTES.md
