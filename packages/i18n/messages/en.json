@@ -1,0 +1,78 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "actions": "Actions"
+  },
+  "patient": {
+    "home": {
+      "hero": {
+        "title": "Your health, simple and safe",
+        "subtitle": "Book health checkups, view your results, and get personalized guidance from our experts.",
+        "cta": "Explore health packages",
+        "login": "Log in"
+      }
+    }
+  },
+  "clinical": {
+    "home": {
+      "login": "Log in",
+      "hero": {
+        "title": "Clinical Portal",
+        "subtitle": "Manage patients, review results, and create care plans.",
+        "cta": "Log in to get started"
+      },
+      "features": {
+        "schedule": {
+          "title": "Today's Schedule",
+          "description": "View your booked appointments for the day."
+        },
+        "results": {
+          "title": "Results Review",
+          "description": "Review and comment on patient results."
+        },
+        "insights": {
+          "title": "AI Insights",
+          "description": "Review and approve AI-generated insights."
+        }
+      }
+    }
+  },
+  "admin": {
+    "home": {
+      "login": "Log in",
+      "hero": {
+        "title": "Administration Portal",
+        "subtitle": "Manage products, staff, and schedules.",
+        "cta": "Log in to get started"
+      },
+      "features": {
+        "products": {
+          "title": "Products",
+          "description": "Create and manage health packages."
+        },
+        "people": {
+          "title": "Staff",
+          "description": "Manage clinic staff."
+        },
+        "skills": {
+          "title": "Skills",
+          "description": "Assign and manage competencies."
+        },
+        "schedule": {
+          "title": "Schedules",
+          "description": "Manage availability and time slots."
+        }
+      }
+    }
+  }
+}

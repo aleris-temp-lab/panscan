@@ -1,0 +1,78 @@
+{
+  "common": {
+    "loading": "Laster...",
+    "error": "Noe gikk galt",
+    "save": "Lagre",
+    "cancel": "Avbryt",
+    "delete": "Slett",
+    "edit": "Rediger",
+    "back": "Tilbake",
+    "next": "Neste",
+    "submit": "Send",
+    "search": "Søk",
+    "filter": "Filtrer",
+    "actions": "Handlinger"
+  },
+  "patient": {
+    "home": {
+      "hero": {
+        "title": "Din helse, enkelt og trygt",
+        "subtitle": "Bestill helsesjekker, se resultatene dine og få personlig veiledning fra våre eksperter.",
+        "cta": "Utforsk helsepakker",
+        "login": "Logg inn"
+      }
+    }
+  },
+  "clinical": {
+    "home": {
+      "login": "Logg inn",
+      "hero": {
+        "title": "Klinisk portal",
+        "subtitle": "Administrer pasienter, gjennomgå resultater og lag behandlingsplaner.",
+        "cta": "Logg inn for å begynne"
+      },
+      "features": {
+        "schedule": {
+          "title": "Dagens timeplan",
+          "description": "Se dine bookede avtaler for dagen."
+        },
+        "results": {
+          "title": "Resultatgjennomgang",
+          "description": "Gjennomgå og kommenter pasientresultater."
+        },
+        "insights": {
+          "title": "AI-innsikt",
+          "description": "Gjennomgå og godkjenn AI-generert innsikt."
+        }
+      }
+    }
+  },
+  "admin": {
+    "home": {
+      "login": "Logg inn",
+      "hero": {
+        "title": "Administrasjonsportal",
+        "subtitle": "Administrer produkter, ansatte og timeplaner.",
+        "cta": "Logg inn for å begynne"
+      },
+      "features": {
+        "products": {
+          "title": "Produkter",
+          "description": "Opprett og administrer helsepakker."
+        },
+        "people": {
+          "title": "Ansatte",
+          "description": "Administrer klinikkens ansatte."
+        },
+        "skills": {
+          "title": "Kompetanser",
+          "description": "Tildel og administrer kompetanser."
+        },
+        "schedule": {
+          "title": "Timeplaner",
+          "description": "Administrer tilgjengelighet og tidsluker."
+        }
+      }
+    }
+  }
+}

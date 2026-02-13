@@ -1,0 +1,78 @@
+{
+  "common": {
+    "loading": "Indlæser...",
+    "error": "Noget gik galt",
+    "save": "Gem",
+    "cancel": "Annuller",
+    "delete": "Slet",
+    "edit": "Rediger",
+    "back": "Tilbage",
+    "next": "Næste",
+    "submit": "Indsend",
+    "search": "Søg",
+    "filter": "Filtrer",
+    "actions": "Handlinger"
+  },
+  "patient": {
+    "home": {
+      "hero": {
+        "title": "Dit helbred, nemt og sikkert",
+        "subtitle": "Bestil sundhedstjek, se dine resultater og få personlig vejledning fra vores eksperter.",
+        "cta": "Udforsk sundhedspakker",
+        "login": "Log ind"
+      }
+    }
+  },
+  "clinical": {
+    "home": {
+      "login": "Log ind",
+      "hero": {
+        "title": "Klinisk portal",
+        "subtitle": "Administrer patienter, gennemgå resultater og opret behandlingsplaner.",
+        "cta": "Log ind for at begynde"
+      },
+      "features": {
+        "schedule": {
+          "title": "Dagens program",
+          "description": "Se dine bookede aftaler for dagen."
+        },
+        "results": {
+          "title": "Resultatgennemgang",
+          "description": "Gennemgå og kommenter patientresultater."
+        },
+        "insights": {
+          "title": "AI-indsigt",
+          "description": "Gennemgå og godkend AI-genereret indsigt."
+        }
+      }
+    }
+  },
+  "admin": {
+    "home": {
+      "login": "Log ind",
+      "hero": {
+        "title": "Administrationsportal",
+        "subtitle": "Administrer produkter, personale og tidsplaner.",
+        "cta": "Log ind for at begynde"
+      },
+      "features": {
+        "products": {
+          "title": "Produkter",
+          "description": "Opret og administrer sundhedspakker."
+        },
+        "people": {
+          "title": "Personale",
+          "description": "Administrer klinikkens personale."
+        },
+        "skills": {
+          "title": "Kompetencer",
+          "description": "Tildel og administrer kompetencer."
+        },
+        "schedule": {
+          "title": "Tidsplaner",
+          "description": "Administrer tilgængelighed og tidslukker."
+        }
+      }
+    }
+  }
+}

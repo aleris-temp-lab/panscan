@@ -1,0 +1,78 @@
+{
+  "common": {
+    "loading": "Laddar...",
+    "error": "Något gick fel",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "delete": "Ta bort",
+    "edit": "Redigera",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "submit": "Skicka",
+    "search": "Sök",
+    "filter": "Filtrera",
+    "actions": "Åtgärder"
+  },
+  "patient": {
+    "home": {
+      "hero": {
+        "title": "Din hälsa, enkelt och tryggt",
+        "subtitle": "Boka hälsokontroller, se dina resultat och få personlig vägledning från våra experter.",
+        "cta": "Utforska hälsopaket",
+        "login": "Logga in"
+      }
+    }
+  },
+  "clinical": {
+    "home": {
+      "login": "Logga in",
+      "hero": {
+        "title": "Klinisk portal",
+        "subtitle": "Hantera patienter, granska resultat och skapa vårdplaner.",
+        "cta": "Logga in för att börja"
+      },
+      "features": {
+        "schedule": {
+          "title": "Dagens schema",
+          "description": "Se dina bokade möten för dagen."
+        },
+        "results": {
+          "title": "Resultatgranskning",
+          "description": "Granska och kommentera patientresultat."
+        },
+        "insights": {
+          "title": "AI-insikter",
+          "description": "Granska och godkänn AI-genererade insikter."
+        }
+      }
+    }
+  },
+  "admin": {
+    "home": {
+      "login": "Logga in",
+      "hero": {
+        "title": "Administrationsportal",
+        "subtitle": "Hantera produkter, personal och scheman.",
+        "cta": "Logga in för att börja"
+      },
+      "features": {
+        "products": {
+          "title": "Produkter",
+          "description": "Skapa och hantera hälsopaket."
+        },
+        "people": {
+          "title": "Personal",
+          "description": "Hantera klinikens personal."
+        },
+        "skills": {
+          "title": "Kompetenser",
+          "description": "Tilldela och hantera kompetenser."
+        },
+        "schedule": {
+          "title": "Scheman",
+          "description": "Hantera tillgänglighet och tidsslottar."
+        }
+      }
+    }
+  }
+}

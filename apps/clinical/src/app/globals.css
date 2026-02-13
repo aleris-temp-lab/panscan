@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aleris Brand Base Styles */
+@layer base {
+  :root {
+    --color-petrol: 0 72 81;
+    --color-orange: 248 124 86;
+    --color-sand: 242 236 228;
+  }
+
+  body {
+    @apply bg-sand text-petrol antialiased;
+    font-family: 'Museo Sans', Arial, sans-serif;
+  }
+
+  /* Accessibility: Focus styles */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-petrol;
+  }
+}
+
+@layer components {
+  /* Aleris circle motif */
+  .aleris-circle {
+    @apply rounded-full;
+  }
+}
