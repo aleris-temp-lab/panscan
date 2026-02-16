@@ -183,6 +183,116 @@
       "aiInsights": "AI Insights",
       "noInsights": "No new insights",
       "review": "Review"
+    },
+    "patients": {
+      "title": "Patients",
+      "subtitle": "Manage your patient roster",
+      "search": "Search patients...",
+      "addPatient": "Add Patient",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Patients",
+        "appointments": "Appointments",
+        "results": "Results"
+      },
+      "table": {
+        "patient": "Patient",
+        "age": "Age",
+        "lastVisit": "Last Visit",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "status": {
+        "active": "Active",
+        "scheduled": "Scheduled",
+        "review": "Needs Review"
+      },
+      "viewProfile": "View profile",
+      "videoCall": "Video call"
+    },
+    "patientDetail": {
+      "backToPatients": "Back to patients",
+      "years": "years",
+      "startVideoCall": "Start Video Call",
+      "addNote": "Add Note",
+      "recentResults": "Recent Results",
+      "viewDetails": "View details",
+      "noResults": "No results available",
+      "clinicalNotes": "Clinical Notes",
+      "noNotes": "No clinical notes yet",
+      "contactInfo": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "appointments": "Appointments"
+    },
+    "appointments": {
+      "title": "Schedule",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Patients",
+        "appointments": "Appointments",
+        "results": "Results"
+      },
+      "previous": "Previous",
+      "today": "Today",
+      "next": "Next",
+      "status": {
+        "completed": "Completed",
+        "inProgress": "In Progress",
+        "scheduled": "Scheduled"
+      },
+      "view": "View",
+      "startCall": "Start Call",
+      "totalAppointments": "Total appointments",
+      "completed": "Completed",
+      "videoConsultations": "Video consultations"
+    },
+    "resultsReview": {
+      "title": "Results Review",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Patients",
+        "appointments": "Appointments",
+        "results": "Results"
+      },
+      "pendingReview": "Pending Review",
+      "highPriority": "High Priority",
+      "normalPriority": "Normal",
+      "aiSummary": "AI Summary",
+      "reviewResults": "Review Results",
+      "viewPatient": "View Patient",
+      "videoCall": "Video Call",
+      "recentlyReviewed": "Recently Reviewed",
+      "table": {
+        "patient": "Patient",
+        "type": "Type",
+        "date": "Date",
+        "reviewedBy": "Reviewed By",
+        "actions": "Actions"
+      },
+      "view": "View"
+    },
+    "consultation": {
+      "live": "LIVE",
+      "waitingForPatient": "Waiting for patient to join...",
+      "patientReady": "Patient is ready",
+      "startConsultation": "Start Consultation",
+      "consultationNotes": "Consultation Notes",
+      "notesPlaceholder": "Type your notes here...",
+      "openPatientRecord": "Open patient record",
+      "sharingScreen": "Sharing Screen",
+      "mute": "Mute",
+      "unmute": "Unmute",
+      "turnOnCamera": "Turn on camera",
+      "turnOffCamera": "Turn off camera",
+      "shareScreen": "Share screen",
+      "stopSharing": "Stop sharing",
+      "endCall": "End call",
+      "callEnded": "Consultation Ended",
+      "consultationWith": "Consultation with",
+      "yourNotes": "Your Notes",
+      "viewPatientRecord": "View Patient Record",
+      "backToSchedule": "Back to Schedule"
     }
   },
   "admin": {
@@ -242,6 +352,118 @@
       "viewAllProducts": "View all products",
       "staffOverview": "Staff Overview",
       "viewAllStaff": "View all staff"
+    },
+    "products": {
+      "title": "Products",
+      "subtitle": "Manage health packages and lab tests",
+      "addProduct": "Add Product",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Products",
+        "people": "People",
+        "schedule": "Schedule",
+        "clinics": "Clinics"
+      },
+      "table": {
+        "product": "Product",
+        "category": "Category",
+        "price": "Price",
+        "duration": "Duration",
+        "orders": "Orders",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "minutes": "min",
+      "status": {
+        "published": "Published",
+        "draft": "Draft"
+      },
+      "edit": "Edit",
+      "delete": "Delete",
+      "totalProducts": "Total products",
+      "published": "Published",
+      "totalOrders": "Total orders"
+    },
+    "people": {
+      "title": "Staff",
+      "subtitle": "Manage clinic staff and roles",
+      "addStaff": "Add Staff",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Products",
+        "people": "People",
+        "schedule": "Schedule",
+        "clinics": "Clinics"
+      },
+      "role": "Role",
+      "clinic": "Clinic",
+      "email": "Email",
+      "skills": "Skills",
+      "status": {
+        "active": "Active",
+        "onLeave": "On Leave"
+      },
+      "editProfile": "Edit Profile",
+      "viewSchedule": "View Schedule",
+      "totalStaff": "Total staff",
+      "doctors": "Doctors",
+      "nurses": "Nurses",
+      "active": "Active"
+    },
+    "schedule": {
+      "title": "Schedule",
+      "subtitle": "Manage availability and time slots",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Products",
+        "people": "People",
+        "schedule": "Schedule",
+        "clinics": "Clinics"
+      },
+      "previousWeek": "Previous Week",
+      "thisWeek": "This Week",
+      "nextWeek": "Next Week",
+      "time": "Time",
+      "booked": "Booked",
+      "available": "Available",
+      "totalSlots": "Total slots",
+      "bookedSlots": "Booked",
+      "availableSlots": "Available",
+      "utilization": "Utilization"
+    },
+    "clinics": {
+      "title": "Clinics",
+      "subtitle": "Manage clinic locations and settings",
+      "addClinic": "Add Clinic",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Products",
+        "people": "People",
+        "schedule": "Schedule",
+        "clinics": "Clinics"
+      },
+      "status": {
+        "active": "Active",
+        "comingSoon": "Coming Soon"
+      },
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Opening Hours",
+      "weekdays": "Mon-Fri",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "services": "Services",
+      "staff": "Staff",
+      "rooms": "Rooms",
+      "appointments": "Appointments",
+      "utilization": "Utilization",
+      "editClinic": "Edit Clinic",
+      "viewSchedule": "View Schedule",
+      "viewStaff": "View Staff",
+      "activeClinics": "Active clinics",
+      "totalStaff": "Total staff",
+      "totalRooms": "Total rooms",
+      "avgUtilization": "Avg. utilization"
     }
   }
 }

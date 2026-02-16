@@ -48,6 +48,87 @@
       "chatWithEmma": "Chat med Emma",
       "browsePackages": "Utforsk pakker",
       "myProfile": "Min profil"
+    },
+    "packages": {
+      "title": "Helsepakker",
+      "subtitle": "Velg riktig helsesjekk for dine behov",
+      "myHealth": "Min Helse",
+      "login": "Logg inn",
+      "popular": "Populær",
+      "includes": "Inkluderer",
+      "more": "til",
+      "addToCart": "Legg i handlekurv",
+      "bookNow": "Bestill nå",
+      "whatsIncluded": "Hva er inkludert",
+      "price": "Pris",
+      "duration": "Varighet",
+      "preparation": "Forberedelse",
+      "fasting": "Faste kreves (8-12 timer)"
+    },
+    "checkout": {
+      "title": "Kasse",
+      "orderSummary": "Ordresammendrag",
+      "subtotal": "Delsum",
+      "total": "Totalt",
+      "payWith": "Betal med",
+      "klarna": "Betal med Klarna",
+      "card": "Kreditt-/debetkort",
+      "processing": "Behandler...",
+      "complete": "Fullfør kjøp",
+      "secure": "Sikker betaling",
+      "termsNotice": "Ved å fullføre kjøpet godtar du våre vilkår og betingelser."
+    },
+    "booking": {
+      "title": "Bestill din time",
+      "selectClinic": "Velg klinikk",
+      "selectDate": "Velg dato",
+      "selectTime": "Velg tid",
+      "availableSlots": "Tilgjengelige tider",
+      "noSlots": "Ingen tilgjengelige tider for denne datoen",
+      "confirm": "Bekreft bestilling",
+      "confirmed": "Bestilling bekreftet!",
+      "confirmationMessage": "Vi har sendt en bekreftelse til din e-post."
+    },
+    "results": {
+      "title": "Mine Resultater",
+      "subtitle": "Se og følg helsedataene dine",
+      "ready": "Klar",
+      "pending": "Venter",
+      "viewDetails": "Vis detaljer",
+      "downloadPdf": "Last ned PDF",
+      "shareWithDoctor": "Del med lege",
+      "noResults": "Ingen resultater ennå",
+      "bloodPanel": "Blodprøve",
+      "dexaScan": "DEXA-skanning",
+      "normal": "Normal",
+      "attention": "Trenger oppmerksomhet",
+      "optimal": "Optimal",
+      "reference": "Referanseverdi"
+    },
+    "chat": {
+      "title": "Chat med Emma",
+      "subtitle": "Din personlige helserådgiver",
+      "placeholder": "Spør Emma om helsen din...",
+      "send": "Send",
+      "typing": "Emma skriver...",
+      "disclaimer": "Emma er en AI-assistent. Ved medisinske nødsituasjoner, ring 113.",
+      "suggestions": {
+        "explainResults": "Forklar mine siste resultater",
+        "lifestyle": "Livsstilsanbefalinger",
+        "nextSteps": "Hva bør jeg gjøre nå?"
+      }
+    },
+    "consultation": {
+      "title": "Videokonsultasjon",
+      "connecting": "Kobler til...",
+      "pleaseWait": "Vennligst vent mens vi kobler deg til",
+      "readyToJoin": "Klar til å bli med i konsultasjonen",
+      "joinCall": "Bli med i samtale",
+      "live": "LIVE",
+      "callEnded": "Konsultasjon avsluttet",
+      "callDuration": "Samtalelengde",
+      "backToDashboard": "Tilbake til oversikt",
+      "followUpWithEmma": "Følg opp med Emma"
     }
   },
   "clinical": {
@@ -102,6 +183,116 @@
       "aiInsights": "AI-innsikt",
       "noInsights": "Ingen nye innsikter",
       "review": "Gjennomgå"
+    },
+    "patients": {
+      "title": "Pasienter",
+      "subtitle": "Administrer pasientlisten din",
+      "search": "Søk pasienter...",
+      "addPatient": "Legg til pasient",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Pasienter",
+        "appointments": "Avtaler",
+        "results": "Resultater"
+      },
+      "table": {
+        "patient": "Pasient",
+        "age": "Alder",
+        "lastVisit": "Siste besøk",
+        "status": "Status",
+        "actions": "Handlinger"
+      },
+      "status": {
+        "active": "Aktiv",
+        "scheduled": "Booket",
+        "review": "Trenger gjennomgang"
+      },
+      "viewProfile": "Vis profil",
+      "videoCall": "Videosamtale"
+    },
+    "patientDetail": {
+      "backToPatients": "Tilbake til pasienter",
+      "years": "år",
+      "startVideoCall": "Start videosamtale",
+      "addNote": "Legg til notat",
+      "recentResults": "Nylige resultater",
+      "viewDetails": "Vis detaljer",
+      "noResults": "Ingen resultater tilgjengelig",
+      "clinicalNotes": "Kliniske notater",
+      "noNotes": "Ingen kliniske notater ennå",
+      "contactInfo": "Kontaktinformasjon",
+      "email": "E-post",
+      "phone": "Telefon",
+      "appointments": "Avtaler"
+    },
+    "appointments": {
+      "title": "Timeplan",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Pasienter",
+        "appointments": "Avtaler",
+        "results": "Resultater"
+      },
+      "previous": "Forrige",
+      "today": "I dag",
+      "next": "Neste",
+      "status": {
+        "completed": "Fullført",
+        "inProgress": "Pågår",
+        "scheduled": "Booket"
+      },
+      "view": "Vis",
+      "startCall": "Start samtale",
+      "totalAppointments": "Totalt avtaler",
+      "completed": "Fullført",
+      "videoConsultations": "Videokonsultasjoner"
+    },
+    "resultsReview": {
+      "title": "Resultatgjennomgang",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Pasienter",
+        "appointments": "Avtaler",
+        "results": "Resultater"
+      },
+      "pendingReview": "Venter på gjennomgang",
+      "highPriority": "Høy prioritet",
+      "normalPriority": "Normal",
+      "aiSummary": "AI-sammendrag",
+      "reviewResults": "Gjennomgå resultater",
+      "viewPatient": "Vis pasient",
+      "videoCall": "Videosamtale",
+      "recentlyReviewed": "Nylig gjennomgått",
+      "table": {
+        "patient": "Pasient",
+        "type": "Type",
+        "date": "Dato",
+        "reviewedBy": "Gjennomgått av",
+        "actions": "Handlinger"
+      },
+      "view": "Vis"
+    },
+    "consultation": {
+      "live": "LIVE",
+      "waitingForPatient": "Venter på at pasienten blir med...",
+      "patientReady": "Pasienten er klar",
+      "startConsultation": "Start konsultasjon",
+      "consultationNotes": "Konsultasjonsnotater",
+      "notesPlaceholder": "Skriv notatene dine her...",
+      "openPatientRecord": "Åpne pasientjournal",
+      "sharingScreen": "Deler skjerm",
+      "mute": "Demp lyd",
+      "unmute": "Slå på lyd",
+      "turnOnCamera": "Slå på kamera",
+      "turnOffCamera": "Slå av kamera",
+      "shareScreen": "Del skjerm",
+      "stopSharing": "Stopp deling",
+      "endCall": "Avslutt samtale",
+      "callEnded": "Konsultasjon avsluttet",
+      "consultationWith": "Konsultasjon med",
+      "yourNotes": "Dine notater",
+      "viewPatientRecord": "Vis pasientjournal",
+      "backToSchedule": "Tilbake til timeplan"
     }
   },
   "admin": {
@@ -161,6 +352,118 @@
       "viewAllProducts": "Vis alle produkter",
       "staffOverview": "Ansattoversikt",
       "viewAllStaff": "Vis alle ansatte"
+    },
+    "products": {
+      "title": "Produkter",
+      "subtitle": "Administrer helsepakker og labbtester",
+      "addProduct": "Legg til produkt",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Produkter",
+        "people": "Ansatte",
+        "schedule": "Timeplan",
+        "clinics": "Klinikker"
+      },
+      "table": {
+        "product": "Produkt",
+        "category": "Kategori",
+        "price": "Pris",
+        "duration": "Varighet",
+        "orders": "Ordrer",
+        "status": "Status",
+        "actions": "Handlinger"
+      },
+      "minutes": "min",
+      "status": {
+        "published": "Publisert",
+        "draft": "Utkast"
+      },
+      "edit": "Rediger",
+      "delete": "Slett",
+      "totalProducts": "Totalt produkter",
+      "published": "Publiserte",
+      "totalOrders": "Totalt ordrer"
+    },
+    "people": {
+      "title": "Ansatte",
+      "subtitle": "Administrer klinikkansatte og roller",
+      "addStaff": "Legg til ansatt",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Produkter",
+        "people": "Ansatte",
+        "schedule": "Timeplan",
+        "clinics": "Klinikker"
+      },
+      "role": "Rolle",
+      "clinic": "Klinikk",
+      "email": "E-post",
+      "skills": "Kompetanser",
+      "status": {
+        "active": "Aktiv",
+        "onLeave": "Permisjon"
+      },
+      "editProfile": "Rediger profil",
+      "viewSchedule": "Vis timeplan",
+      "totalStaff": "Totalt ansatte",
+      "doctors": "Leger",
+      "nurses": "Sykepleiere",
+      "active": "Aktive"
+    },
+    "schedule": {
+      "title": "Timeplan",
+      "subtitle": "Administrer tilgjengelighet og tidsluker",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Produkter",
+        "people": "Ansatte",
+        "schedule": "Timeplan",
+        "clinics": "Klinikker"
+      },
+      "previousWeek": "Forrige uke",
+      "thisWeek": "Denne uken",
+      "nextWeek": "Neste uke",
+      "time": "Tid",
+      "booked": "Booket",
+      "available": "Ledig",
+      "totalSlots": "Totalt tider",
+      "bookedSlots": "Booket",
+      "availableSlots": "Ledige",
+      "utilization": "Utnyttelse"
+    },
+    "clinics": {
+      "title": "Klinikker",
+      "subtitle": "Administrer klinikksteder og innstillinger",
+      "addClinic": "Legg til klinikk",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Produkter",
+        "people": "Ansatte",
+        "schedule": "Timeplan",
+        "clinics": "Klinikker"
+      },
+      "status": {
+        "active": "Aktiv",
+        "comingSoon": "Kommer snart"
+      },
+      "phone": "Telefon",
+      "email": "E-post",
+      "hours": "Åpningstider",
+      "weekdays": "Man-Fre",
+      "saturday": "Lørdag",
+      "sunday": "Søndag",
+      "services": "Tjenester",
+      "staff": "Ansatte",
+      "rooms": "Rom",
+      "appointments": "Avtaler",
+      "utilization": "Utnyttelse",
+      "editClinic": "Rediger klinikk",
+      "viewSchedule": "Vis timeplan",
+      "viewStaff": "Vis ansatte",
+      "activeClinics": "Aktive klinikker",
+      "totalStaff": "Totalt ansatte",
+      "totalRooms": "Totalt rom",
+      "avgUtilization": "Snitt utnyttelse"
     }
   }
 }

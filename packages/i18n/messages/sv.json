@@ -183,6 +183,116 @@
       "aiInsights": "AI-insikter",
       "noInsights": "Inga nya insikter",
       "review": "Granska"
+    },
+    "patients": {
+      "title": "Patienter",
+      "subtitle": "Hantera din patientlista",
+      "search": "Sök patienter...",
+      "addPatient": "Lägg till patient",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Patienter",
+        "appointments": "Bokningar",
+        "results": "Resultat"
+      },
+      "table": {
+        "patient": "Patient",
+        "age": "Ålder",
+        "lastVisit": "Senaste besök",
+        "status": "Status",
+        "actions": "Åtgärder"
+      },
+      "status": {
+        "active": "Aktiv",
+        "scheduled": "Bokad",
+        "review": "Behöver granskning"
+      },
+      "viewProfile": "Visa profil",
+      "videoCall": "Videosamtal"
+    },
+    "patientDetail": {
+      "backToPatients": "Tillbaka till patienter",
+      "years": "år",
+      "startVideoCall": "Starta videosamtal",
+      "addNote": "Lägg till anteckning",
+      "recentResults": "Senaste resultat",
+      "viewDetails": "Visa detaljer",
+      "noResults": "Inga resultat tillgängliga",
+      "clinicalNotes": "Kliniska anteckningar",
+      "noNotes": "Inga kliniska anteckningar ännu",
+      "contactInfo": "Kontaktinformation",
+      "email": "E-post",
+      "phone": "Telefon",
+      "appointments": "Bokningar"
+    },
+    "appointments": {
+      "title": "Schema",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Patienter",
+        "appointments": "Bokningar",
+        "results": "Resultat"
+      },
+      "previous": "Föregående",
+      "today": "Idag",
+      "next": "Nästa",
+      "status": {
+        "completed": "Slutförd",
+        "inProgress": "Pågående",
+        "scheduled": "Bokad"
+      },
+      "view": "Visa",
+      "startCall": "Starta samtal",
+      "totalAppointments": "Totalt bokningar",
+      "completed": "Slutförda",
+      "videoConsultations": "Videokonsultationer"
+    },
+    "resultsReview": {
+      "title": "Resultatgranskning",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Patienter",
+        "appointments": "Bokningar",
+        "results": "Resultat"
+      },
+      "pendingReview": "Väntar på granskning",
+      "highPriority": "Hög prioritet",
+      "normalPriority": "Normal",
+      "aiSummary": "AI-sammanfattning",
+      "reviewResults": "Granska resultat",
+      "viewPatient": "Visa patient",
+      "videoCall": "Videosamtal",
+      "recentlyReviewed": "Nyligen granskade",
+      "table": {
+        "patient": "Patient",
+        "type": "Typ",
+        "date": "Datum",
+        "reviewedBy": "Granskad av",
+        "actions": "Åtgärder"
+      },
+      "view": "Visa"
+    },
+    "consultation": {
+      "live": "LIVE",
+      "waitingForPatient": "Väntar på att patienten ska ansluta...",
+      "patientReady": "Patienten är redo",
+      "startConsultation": "Starta konsultation",
+      "consultationNotes": "Konsultationsanteckningar",
+      "notesPlaceholder": "Skriv dina anteckningar här...",
+      "openPatientRecord": "Öppna patientjournal",
+      "sharingScreen": "Delar skärm",
+      "mute": "Stäng av ljud",
+      "unmute": "Slå på ljud",
+      "turnOnCamera": "Slå på kamera",
+      "turnOffCamera": "Stäng av kamera",
+      "shareScreen": "Dela skärm",
+      "stopSharing": "Sluta dela",
+      "endCall": "Avsluta samtal",
+      "callEnded": "Konsultation avslutad",
+      "consultationWith": "Konsultation med",
+      "yourNotes": "Dina anteckningar",
+      "viewPatientRecord": "Visa patientjournal",
+      "backToSchedule": "Tillbaka till schema"
     }
   },
   "admin": {
@@ -242,6 +352,118 @@
       "viewAllProducts": "Visa alla produkter",
       "staffOverview": "Personalöversikt",
       "viewAllStaff": "Visa all personal"
+    },
+    "products": {
+      "title": "Produkter",
+      "subtitle": "Hantera hälsopaket och labbtester",
+      "addProduct": "Lägg till produkt",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Produkter",
+        "people": "Personal",
+        "schedule": "Schema",
+        "clinics": "Kliniker"
+      },
+      "table": {
+        "product": "Produkt",
+        "category": "Kategori",
+        "price": "Pris",
+        "duration": "Längd",
+        "orders": "Ordrar",
+        "status": "Status",
+        "actions": "Åtgärder"
+      },
+      "minutes": "min",
+      "status": {
+        "published": "Publicerad",
+        "draft": "Utkast"
+      },
+      "edit": "Redigera",
+      "delete": "Ta bort",
+      "totalProducts": "Totalt produkter",
+      "published": "Publicerade",
+      "totalOrders": "Totalt ordrar"
+    },
+    "people": {
+      "title": "Personal",
+      "subtitle": "Hantera klinikpersonal och roller",
+      "addStaff": "Lägg till personal",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Produkter",
+        "people": "Personal",
+        "schedule": "Schema",
+        "clinics": "Kliniker"
+      },
+      "role": "Roll",
+      "clinic": "Klinik",
+      "email": "E-post",
+      "skills": "Kompetenser",
+      "status": {
+        "active": "Aktiv",
+        "onLeave": "Tjänstledig"
+      },
+      "editProfile": "Redigera profil",
+      "viewSchedule": "Visa schema",
+      "totalStaff": "Total personal",
+      "doctors": "Läkare",
+      "nurses": "Sjuksköterskor",
+      "active": "Aktiva"
+    },
+    "schedule": {
+      "title": "Schema",
+      "subtitle": "Hantera tillgänglighet och tidsslottar",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Produkter",
+        "people": "Personal",
+        "schedule": "Schema",
+        "clinics": "Kliniker"
+      },
+      "previousWeek": "Föregående vecka",
+      "thisWeek": "Denna vecka",
+      "nextWeek": "Nästa vecka",
+      "time": "Tid",
+      "booked": "Bokad",
+      "available": "Tillgänglig",
+      "totalSlots": "Totalt tider",
+      "bookedSlots": "Bokade",
+      "availableSlots": "Tillgängliga",
+      "utilization": "Beläggning"
+    },
+    "clinics": {
+      "title": "Kliniker",
+      "subtitle": "Hantera klinikplatser och inställningar",
+      "addClinic": "Lägg till klinik",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Produkter",
+        "people": "Personal",
+        "schedule": "Schema",
+        "clinics": "Kliniker"
+      },
+      "status": {
+        "active": "Aktiv",
+        "comingSoon": "Kommer snart"
+      },
+      "phone": "Telefon",
+      "email": "E-post",
+      "hours": "Öppettider",
+      "weekdays": "Mån-Fre",
+      "saturday": "Lördag",
+      "sunday": "Söndag",
+      "services": "Tjänster",
+      "staff": "Personal",
+      "rooms": "Rum",
+      "appointments": "Bokningar",
+      "utilization": "Beläggning",
+      "editClinic": "Redigera klinik",
+      "viewSchedule": "Visa schema",
+      "viewStaff": "Visa personal",
+      "activeClinics": "Aktiva kliniker",
+      "totalStaff": "Total personal",
+      "totalRooms": "Totalt rum",
+      "avgUtilization": "Snitt beläggning"
     }
   }
 }

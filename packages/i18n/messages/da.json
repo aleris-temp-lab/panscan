@@ -48,6 +48,87 @@
       "chatWithEmma": "Chat med Emma",
       "browsePackages": "Udforsk pakker",
       "myProfile": "Min profil"
+    },
+    "packages": {
+      "title": "Sundhedspakker",
+      "subtitle": "Vælg det rigtige sundhedstjek til dine behov",
+      "myHealth": "Mit Helbred",
+      "login": "Log ind",
+      "popular": "Populær",
+      "includes": "Inkluderer",
+      "more": "til",
+      "addToCart": "Læg i kurv",
+      "bookNow": "Book nu",
+      "whatsIncluded": "Hvad er inkluderet",
+      "price": "Pris",
+      "duration": "Varighed",
+      "preparation": "Forberedelse",
+      "fasting": "Faste påkrævet (8-12 timer)"
+    },
+    "checkout": {
+      "title": "Kasse",
+      "orderSummary": "Ordreoversigt",
+      "subtotal": "Subtotal",
+      "total": "Total",
+      "payWith": "Betal med",
+      "klarna": "Betal med Klarna",
+      "card": "Kredit-/debetkort",
+      "processing": "Behandler...",
+      "complete": "Gennemfør køb",
+      "secure": "Sikker betaling",
+      "termsNotice": "Ved at gennemføre købet accepterer du vores vilkår og betingelser."
+    },
+    "booking": {
+      "title": "Book din tid",
+      "selectClinic": "Vælg klinik",
+      "selectDate": "Vælg dato",
+      "selectTime": "Vælg tid",
+      "availableSlots": "Tilgængelige tider",
+      "noSlots": "Ingen tilgængelige tider for denne dato",
+      "confirm": "Bekræft booking",
+      "confirmed": "Booking bekræftet!",
+      "confirmationMessage": "Vi har sendt en bekræftelse til din e-mail."
+    },
+    "results": {
+      "title": "Mine Resultater",
+      "subtitle": "Se og følg dine sundhedsdata",
+      "ready": "Klar",
+      "pending": "Afventer",
+      "viewDetails": "Vis detaljer",
+      "downloadPdf": "Download PDF",
+      "shareWithDoctor": "Del med læge",
+      "noResults": "Ingen resultater endnu",
+      "bloodPanel": "Blodprøve",
+      "dexaScan": "DEXA-scanning",
+      "normal": "Normal",
+      "attention": "Kræver opmærksomhed",
+      "optimal": "Optimal",
+      "reference": "Referenceværdi"
+    },
+    "chat": {
+      "title": "Chat med Emma",
+      "subtitle": "Din personlige sundhedsrådgiver",
+      "placeholder": "Spørg Emma om dit helbred...",
+      "send": "Send",
+      "typing": "Emma skriver...",
+      "disclaimer": "Emma er en AI-assistent. Ved medicinske nødsituationer, ring 112.",
+      "suggestions": {
+        "explainResults": "Forklar mine seneste resultater",
+        "lifestyle": "Livsstilsanbefalinger",
+        "nextSteps": "Hvad bør jeg gøre nu?"
+      }
+    },
+    "consultation": {
+      "title": "Videokonsultation",
+      "connecting": "Forbinder...",
+      "pleaseWait": "Vent venligst mens vi forbinder dig",
+      "readyToJoin": "Klar til at deltage i konsultationen",
+      "joinCall": "Deltag i opkald",
+      "live": "LIVE",
+      "callEnded": "Konsultation afsluttet",
+      "callDuration": "Opkaldsvarighed",
+      "backToDashboard": "Tilbage til oversigt",
+      "followUpWithEmma": "Følg op med Emma"
     }
   },
   "clinical": {
@@ -102,6 +183,116 @@
       "aiInsights": "AI-indsigt",
       "noInsights": "Ingen nye indsigter",
       "review": "Gennemgå"
+    },
+    "patients": {
+      "title": "Patienter",
+      "subtitle": "Administrer din patientliste",
+      "search": "Søg patienter...",
+      "addPatient": "Tilføj patient",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Patienter",
+        "appointments": "Aftaler",
+        "results": "Resultater"
+      },
+      "table": {
+        "patient": "Patient",
+        "age": "Alder",
+        "lastVisit": "Sidste besøg",
+        "status": "Status",
+        "actions": "Handlinger"
+      },
+      "status": {
+        "active": "Aktiv",
+        "scheduled": "Booket",
+        "review": "Kræver gennemgang"
+      },
+      "viewProfile": "Vis profil",
+      "videoCall": "Videoopkald"
+    },
+    "patientDetail": {
+      "backToPatients": "Tilbage til patienter",
+      "years": "år",
+      "startVideoCall": "Start videoopkald",
+      "addNote": "Tilføj note",
+      "recentResults": "Seneste resultater",
+      "viewDetails": "Vis detaljer",
+      "noResults": "Ingen resultater tilgængelige",
+      "clinicalNotes": "Kliniske noter",
+      "noNotes": "Ingen kliniske noter endnu",
+      "contactInfo": "Kontaktinformation",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "appointments": "Aftaler"
+    },
+    "appointments": {
+      "title": "Tidsplan",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Patienter",
+        "appointments": "Aftaler",
+        "results": "Resultater"
+      },
+      "previous": "Forrige",
+      "today": "I dag",
+      "next": "Næste",
+      "status": {
+        "completed": "Fuldført",
+        "inProgress": "I gang",
+        "scheduled": "Booket"
+      },
+      "view": "Vis",
+      "startCall": "Start opkald",
+      "totalAppointments": "Samlet aftaler",
+      "completed": "Fuldført",
+      "videoConsultations": "Videokonsultationer"
+    },
+    "resultsReview": {
+      "title": "Resultatgennemgang",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Patienter",
+        "appointments": "Aftaler",
+        "results": "Resultater"
+      },
+      "pendingReview": "Afventer gennemgang",
+      "highPriority": "Høj prioritet",
+      "normalPriority": "Normal",
+      "aiSummary": "AI-resumé",
+      "reviewResults": "Gennemgå resultater",
+      "viewPatient": "Vis patient",
+      "videoCall": "Videoopkald",
+      "recentlyReviewed": "Nyligt gennemgået",
+      "table": {
+        "patient": "Patient",
+        "type": "Type",
+        "date": "Dato",
+        "reviewedBy": "Gennemgået af",
+        "actions": "Handlinger"
+      },
+      "view": "Vis"
+    },
+    "consultation": {
+      "live": "LIVE",
+      "waitingForPatient": "Venter på at patienten tilslutter...",
+      "patientReady": "Patienten er klar",
+      "startConsultation": "Start konsultation",
+      "consultationNotes": "Konsultationsnoter",
+      "notesPlaceholder": "Skriv dine noter her...",
+      "openPatientRecord": "Åbn patientjournal",
+      "sharingScreen": "Deler skærm",
+      "mute": "Slå lyd fra",
+      "unmute": "Slå lyd til",
+      "turnOnCamera": "Tænd kamera",
+      "turnOffCamera": "Sluk kamera",
+      "shareScreen": "Del skærm",
+      "stopSharing": "Stop deling",
+      "endCall": "Afslut opkald",
+      "callEnded": "Konsultation afsluttet",
+      "consultationWith": "Konsultation med",
+      "yourNotes": "Dine noter",
+      "viewPatientRecord": "Vis patientjournal",
+      "backToSchedule": "Tilbage til tidsplan"
     }
   },
   "admin": {
@@ -161,6 +352,118 @@
       "viewAllProducts": "Vis alle produkter",
       "staffOverview": "Personaleoversigt",
       "viewAllStaff": "Vis alt personale"
+    },
+    "products": {
+      "title": "Produkter",
+      "subtitle": "Administrer sundhedspakker og laboratorietests",
+      "addProduct": "Tilføj produkt",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Produkter",
+        "people": "Personale",
+        "schedule": "Tidsplan",
+        "clinics": "Klinikker"
+      },
+      "table": {
+        "product": "Produkt",
+        "category": "Kategori",
+        "price": "Pris",
+        "duration": "Varighed",
+        "orders": "Ordrer",
+        "status": "Status",
+        "actions": "Handlinger"
+      },
+      "minutes": "min",
+      "status": {
+        "published": "Publiceret",
+        "draft": "Udkast"
+      },
+      "edit": "Rediger",
+      "delete": "Slet",
+      "totalProducts": "Samlet produkter",
+      "published": "Publicerede",
+      "totalOrders": "Samlet ordrer"
+    },
+    "people": {
+      "title": "Personale",
+      "subtitle": "Administrer klinikpersonale og roller",
+      "addStaff": "Tilføj personale",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Produkter",
+        "people": "Personale",
+        "schedule": "Tidsplan",
+        "clinics": "Klinikker"
+      },
+      "role": "Rolle",
+      "clinic": "Klinik",
+      "email": "E-mail",
+      "skills": "Kompetencer",
+      "status": {
+        "active": "Aktiv",
+        "onLeave": "Orlov"
+      },
+      "editProfile": "Rediger profil",
+      "viewSchedule": "Vis tidsplan",
+      "totalStaff": "Samlet personale",
+      "doctors": "Læger",
+      "nurses": "Sygeplejersker",
+      "active": "Aktive"
+    },
+    "schedule": {
+      "title": "Tidsplan",
+      "subtitle": "Administrer tilgængelighed og tidslukker",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Produkter",
+        "people": "Personale",
+        "schedule": "Tidsplan",
+        "clinics": "Klinikker"
+      },
+      "previousWeek": "Forrige uge",
+      "thisWeek": "Denne uge",
+      "nextWeek": "Næste uge",
+      "time": "Tid",
+      "booked": "Booket",
+      "available": "Ledig",
+      "totalSlots": "Samlet tider",
+      "bookedSlots": "Bookede",
+      "availableSlots": "Ledige",
+      "utilization": "Udnyttelse"
+    },
+    "clinics": {
+      "title": "Klinikker",
+      "subtitle": "Administrer kliniksteder og indstillinger",
+      "addClinic": "Tilføj klinik",
+      "nav": {
+        "dashboard": "Dashboard",
+        "products": "Produkter",
+        "people": "Personale",
+        "schedule": "Tidsplan",
+        "clinics": "Klinikker"
+      },
+      "status": {
+        "active": "Aktiv",
+        "comingSoon": "Kommer snart"
+      },
+      "phone": "Telefon",
+      "email": "E-mail",
+      "hours": "Åbningstider",
+      "weekdays": "Man-Fre",
+      "saturday": "Lørdag",
+      "sunday": "Søndag",
+      "services": "Tjenester",
+      "staff": "Personale",
+      "rooms": "Rum",
+      "appointments": "Aftaler",
+      "utilization": "Udnyttelse",
+      "editClinic": "Rediger klinik",
+      "viewSchedule": "Vis tidsplan",
+      "viewStaff": "Vis personale",
+      "activeClinics": "Aktive klinikker",
+      "totalStaff": "Samlet personale",
+      "totalRooms": "Samlet rum",
+      "avgUtilization": "Gns. udnyttelse"
     }
   }
 }

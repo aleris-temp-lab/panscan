@@ -4,14 +4,14 @@ import { Logo } from '@panscan/ui'
 import { LocaleSwitcher } from '@/components/LocaleSwitcher'
 import { getPatientSession } from '@panscan/auth'
 
-// Demo packages data
+// Demo packages data (prices aligned with admin/products)
 const packages = [
   {
     id: 'blood-panel-basic',
     category: 'blood',
     name: 'Basic Blood Panel',
     description: 'Essential health markers including cholesterol, blood sugar, and liver function.',
-    price: 1495,
+    price: 995,
     currency: 'SEK',
     popular: false,
     tests: ['Cholesterol', 'Blood Sugar', 'Liver Function', 'Kidney Function'],
@@ -51,7 +51,7 @@ const packages = [
     category: 'blood',
     name: 'Male Hormone Panel',
     description: 'Testosterone, SHBG, and related markers for male hormonal health.',
-    price: 1895,
+    price: 2495,
     currency: 'SEK',
     popular: false,
     tests: ['Total Testosterone', 'Free Testosterone', 'SHBG', 'LH', 'FSH', 'Estradiol'],
@@ -61,10 +61,20 @@ const packages = [
     category: 'blood',
     name: 'Female Hormone Panel',
     description: 'Comprehensive hormonal analysis for female health optimization.',
-    price: 1895,
+    price: 2995,
     currency: 'SEK',
     popular: false,
     tests: ['Estrogen', 'Progesterone', 'FSH', 'LH', 'Thyroid Panel', 'Prolactin'],
+  },
+  {
+    id: 'thyroid-complete',
+    category: 'blood',
+    name: 'Thyroid Complete',
+    description: 'Full thyroid function analysis including TSH, T3, T4, and antibodies.',
+    price: 1495,
+    currency: 'SEK',
+    popular: false,
+    tests: ['TSH', 'Free T3', 'Free T4', 'TPO Antibodies', 'Thyroglobulin'],
   },
 ]
 
