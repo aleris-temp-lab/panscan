@@ -578,12 +578,51 @@ If you're a new Claude instance picking up this project:
 Update this section as you complete work:
 
 ```
-Current Phase: 1 - Foundation (nearly complete)
-Last Completed Task: Supabase migrations run, code pushed to GitHub
-Next Task: Deploy to Vercel (3 projects)
-Blockers: None
+Current Phase: UI Complete, Deployment Pending
+Last Updated: 2026-02-16
+
+COMPLETED:
+✅ All 3 apps fully built with UI
+✅ Patient: landing, auth, dashboard, packages, checkout, booking, results, chat, video consultation
+✅ Clinical: landing, auth, dashboard, patients list, patient detail, appointments, results review, video consultation
+✅ Admin: landing, auth, dashboard, products, people, schedule, clinics management
+✅ Full i18n for all 4 languages (en, sv, no, da)
+✅ Consistent demo data across all apps
+✅ Mock auth working (cookies-based)
+
+NOT YET DONE:
+❌ Vercel deployment (webhook issues - see below)
+❌ Supabase connection (schema exists, not wired up)
+❌ Real BankID integration
+❌ Stripe/Klarna payments
+❌ Video provider integration (Whereby/Daily.co)
+
+VERCEL ISSUE:
+- 3 projects exist: panscan-patient, panscan-clinical, panscan-admin
+- Git pushes not triggering builds
+- Root cause: User has 2 GitHub accounts (ditsndots + aleris-labs)
+- Fix: Install Vercel GitHub App on aleris-labs org, reconnect projects
+
 GitHub: https://github.com/aleris-labs/panscan
 ```
+
+### Demo Credentials
+
+| App | URL (local) | Login |
+|-----|-------------|-------|
+| Patient | http://localhost:3000 | Any 10-digit number |
+| Clinical | http://localhost:3001 | doctor@aleris.se / demo123 |
+| Admin | http://localhost:3002 | admin@aleris.se / demo123 |
+
+### Demo Data Summary
+
+**6 Patients:** Anna Andersson, Erik Svensson, Maria Johansson, Lars Nilsson, Karin Berg, Johan Lindström
+
+**7 Products:** Basic Blood Panel (995 SEK), Comprehensive Blood Panel (2,495 SEK), DEXA Scan (1,995 SEK), Executive Health (8,995 SEK), Male Hormone (2,495 SEK), Female Hormone (2,995 SEK), Thyroid Complete (1,495 SEK)
+
+**6 Staff:** Dr. Sara Lindqvist, Dr. Magnus Eriksson, Johan Berg, Emma Karlsson, Anna Svensson, Lars Nilsson
+
+**5 Clinics:** Stockholm City, Gothenburg Central, Malmö South (SE), Oslo Central (NO), Copenhagen City (DK - coming soon)
 
 ### Key Commands
 
