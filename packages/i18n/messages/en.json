@@ -135,8 +135,8 @@
     "home": {
       "login": "Log in",
       "hero": {
-        "title": "Clinical Portal",
-        "subtitle": "Manage patients, review results, and create care plans.",
+        "title": "For those who provide care",
+        "subtitle": "Manage patients, review results, and create care plans — all in one place.",
         "cta": "Log in to get started"
       },
       "features": {
@@ -293,15 +293,45 @@
       "yourNotes": "Your Notes",
       "viewPatientRecord": "View Patient Record",
       "backToSchedule": "Back to Schedule"
+    },
+    "insights": {
+      "title": "AI Insights",
+      "subtitle": "Review AI-generated insights and recommendations for your patients",
+      "logout": "Log out",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Patients",
+        "appointments": "Appointments",
+        "results": "Results",
+        "insights": "Insights"
+      },
+      "pendingReview": "pending review",
+      "highPriority": "High Priority",
+      "needsReview": "Needs Review",
+      "positive": "Positive",
+      "aiRecommendation": "AI Recommendation",
+      "basedOn": "Based on",
+      "approving": "Approving...",
+      "approveInsight": "Approve & Share",
+      "editRecommendation": "Edit Recommendation",
+      "viewPatient": "View Patient",
+      "dismiss": "Dismiss",
+      "recentlyReviewed": "Recently Reviewed",
+      "table": {
+        "patient": "Patient",
+        "insight": "Insight",
+        "action": "Action Taken",
+        "reviewedBy": "Reviewed By"
+      }
     }
   },
   "admin": {
     "home": {
       "login": "Log in",
       "hero": {
-        "title": "Administration Portal",
-        "subtitle": "Manage products, staff, and schedules.",
-        "cta": "Log in to get started"
+        "title": "Making it all happen",
+        "subtitle": "Products, staff, schedules — everything that keeps the wheels turning.",
+        "cta": "Let's go"
       },
       "features": {
         "products": {

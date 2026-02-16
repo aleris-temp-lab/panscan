@@ -135,8 +135,8 @@
     "home": {
       "login": "Logg inn",
       "hero": {
-        "title": "Klinisk portal",
-        "subtitle": "Administrer pasienter, gjennomgå resultater og lag behandlingsplaner.",
+        "title": "For deg som gir omsorg",
+        "subtitle": "Administrer pasienter, gjennomgå resultater og lag behandlingsplaner — alt på ett sted.",
         "cta": "Logg inn for å begynne"
       },
       "features": {
@@ -293,15 +293,45 @@
       "yourNotes": "Dine notater",
       "viewPatientRecord": "Vis pasientjournal",
       "backToSchedule": "Tilbake til timeplan"
+    },
+    "insights": {
+      "title": "AI-innsikt",
+      "subtitle": "Gjennomgå AI-generert innsikt og anbefalinger for dine pasienter",
+      "logout": "Logg ut",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Pasienter",
+        "appointments": "Avtaler",
+        "results": "Resultater",
+        "insights": "Innsikt"
+      },
+      "pendingReview": "venter på gjennomgang",
+      "highPriority": "Høy prioritet",
+      "needsReview": "Trenger gjennomgang",
+      "positive": "Positivt",
+      "aiRecommendation": "AI-anbefaling",
+      "basedOn": "Basert på",
+      "approving": "Godkjenner...",
+      "approveInsight": "Godkjenn & Del",
+      "editRecommendation": "Rediger anbefaling",
+      "viewPatient": "Vis pasient",
+      "dismiss": "Avvis",
+      "recentlyReviewed": "Nylig gjennomgått",
+      "table": {
+        "patient": "Pasient",
+        "insight": "Innsikt",
+        "action": "Handling",
+        "reviewedBy": "Gjennomgått av"
+      }
     }
   },
   "admin": {
     "home": {
       "login": "Logg inn",
       "hero": {
-        "title": "Administrasjonsportal",
-        "subtitle": "Administrer produkter, ansatte og timeplaner.",
-        "cta": "Logg inn for å begynne"
+        "title": "Vi får det til å skje",
+        "subtitle": "Produkter, ansatte, timeplaner — alt som holder hjulene i gang.",
+        "cta": "La oss begynne"
       },
       "features": {
         "products": {

@@ -135,8 +135,8 @@
     "home": {
       "login": "Logga in",
       "hero": {
-        "title": "Klinisk portal",
-        "subtitle": "Hantera patienter, granska resultat och skapa vårdplaner.",
+        "title": "För dig som ger vård",
+        "subtitle": "Hantera patienter, granska resultat och skapa vårdplaner — allt på ett ställe.",
         "cta": "Logga in för att börja"
       },
       "features": {
@@ -293,15 +293,45 @@
       "yourNotes": "Dina anteckningar",
       "viewPatientRecord": "Visa patientjournal",
       "backToSchedule": "Tillbaka till schema"
+    },
+    "insights": {
+      "title": "AI-insikter",
+      "subtitle": "Granska AI-genererade insikter och rekommendationer för dina patienter",
+      "logout": "Logga ut",
+      "nav": {
+        "dashboard": "Dashboard",
+        "patients": "Patienter",
+        "appointments": "Bokningar",
+        "results": "Resultat",
+        "insights": "Insikter"
+      },
+      "pendingReview": "väntar på granskning",
+      "highPriority": "Hög prioritet",
+      "needsReview": "Behöver granskning",
+      "positive": "Positivt",
+      "aiRecommendation": "AI-rekommendation",
+      "basedOn": "Baserat på",
+      "approving": "Godkänner...",
+      "approveInsight": "Godkänn & Dela",
+      "editRecommendation": "Redigera rekommendation",
+      "viewPatient": "Visa patient",
+      "dismiss": "Avfärda",
+      "recentlyReviewed": "Nyligen granskade",
+      "table": {
+        "patient": "Patient",
+        "insight": "Insikt",
+        "action": "Åtgärd",
+        "reviewedBy": "Granskad av"
+      }
     }
   },
   "admin": {
     "home": {
       "login": "Logga in",
       "hero": {
-        "title": "Administrationsportal",
-        "subtitle": "Hantera produkter, personal och scheman.",
-        "cta": "Logga in för att börja"
+        "title": "Vi får det att hända",
+        "subtitle": "Produkter, personal, scheman — allt som håller hjulen rullande.",
+        "cta": "Sätt igång"
       },
       "features": {
         "products": {
