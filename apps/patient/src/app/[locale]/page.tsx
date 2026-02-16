@@ -1,6 +1,8 @@
 import { useTranslations } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
 import { Link } from '@/i18n/routing'
+import { LocaleSwitcher } from '@/components/LocaleSwitcher'
+import { Logo } from '@panscan/ui'
 
 export default async function HomePage({
   params,
@@ -18,8 +20,26 @@ function HomeContent() {
 
   return (
     <main className="min-h-screen">
+      {/* Header */}
+      <header className="bg-white border-b border-slate">
+        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+          <Link href="/" className="flex items-center">
+            <Logo width={100} height={36} />
+          </Link>
+          <div className="flex items-center gap-4">
+            <LocaleSwitcher />
+            <Link
+              href="/auth/login"
+              className="px-4 py-2 text-sm font-medium text-petrol hover:text-orange transition-colors"
+            >
+              {t('hero.login')}
+            </Link>
+          </div>
+        </div>
+      </header>
+
       {/* Hero Section */}
-      <section className="bg-white px-6 py-16">
+      <section className="bg-sand px-6 py-20">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="mb-6 text-4xl font-bold text-petrol md:text-5xl">
             {t('hero.title')}
@@ -41,16 +61,6 @@ function HomeContent() {
               {t('hero.login')}
             </Link>
           </div>
-        </div>
-      </section>
-
-      {/* Language Selector */}
-      <section className="bg-sand px-6 py-8">
-        <div className="mx-auto flex max-w-4xl justify-center gap-4">
-          <Link href="/" locale="sv" className="text-petrol hover:text-orange">Svenska</Link>
-          <Link href="/" locale="no" className="text-petrol hover:text-orange">Norsk</Link>
-          <Link href="/" locale="da" className="text-petrol hover:text-orange">Dansk</Link>
-          <Link href="/" locale="en" className="text-petrol hover:text-orange">English</Link>
         </div>
       </section>
     </main>

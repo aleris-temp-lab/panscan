@@ -1,6 +1,8 @@
 import { useTranslations } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
 import { Link } from '@/i18n/routing'
+import { LocaleSwitcher } from '@/components/LocaleSwitcher'
+import { Logo } from '@panscan/ui'
 
 export default async function AdminHomePage({
   params,
@@ -21,16 +23,18 @@ function AdminHomeContent() {
       {/* Header */}
       <header className="border-b border-slate bg-white px-6 py-4">
         <div className="mx-auto flex max-w-7xl items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="h-8 w-8 rounded-full bg-petrol" />
-            <span className="text-xl font-semibold text-petrol">Aleris Admin</span>
-          </div>
-          <Link
-            href="/auth/login"
-            className="rounded-lg bg-petrol px-6 py-2 text-sm font-medium text-white transition-colors hover:bg-petrol-80"
-          >
-            {t('login')}
+          <Link href="/" className="flex items-center">
+            <Logo width={100} height={36} />
           </Link>
+          <div className="flex items-center gap-4">
+            <LocaleSwitcher />
+            <Link
+              href="/auth/login"
+              className="rounded-lg bg-petrol px-6 py-2 text-sm font-medium text-white transition-colors hover:bg-petrol-80"
+            >
+              {t('login')}
+            </Link>
+          </div>
         </div>
       </header>
 
