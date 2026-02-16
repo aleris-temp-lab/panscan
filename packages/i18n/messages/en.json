@@ -11,7 +11,9 @@
     "submit": "Submit",
     "search": "Search",
     "filter": "Filter",
-    "actions": "Actions"
+    "actions": "Actions",
+    "logout": "Log out",
+    "welcome": "Welcome"
   },
   "patient": {
     "home": {
@@ -21,6 +23,31 @@
         "cta": "Explore health packages",
         "login": "Log in"
       }
+    },
+    "auth": {
+      "loginTitle": "Log in with BankID",
+      "loginSubtitle": "Enter your personal number to identify yourself securely.",
+      "personalNumber": "Personal number",
+      "loginWithBankID": "Log in with BankID",
+      "invalidPersonalNumber": "Please enter a valid personal number",
+      "startingBankID": "Starting BankID...",
+      "openBankIDApp": "Open the BankID app",
+      "waitingForAuth": "Waiting for authentication...",
+      "loginSuccess": "Login successful!"
+    },
+    "dashboard": {
+      "title": "My Health",
+      "greeting": "Hello, {name}!",
+      "upcomingAppointments": "Upcoming Appointments",
+      "noAppointments": "No upcoming appointments",
+      "bookAppointment": "Book appointment",
+      "recentResults": "Recent Results",
+      "noResults": "No results yet",
+      "viewAllResults": "View all results",
+      "quickActions": "Quick Actions",
+      "chatWithEmma": "Chat with Emma",
+      "browsePackages": "Browse packages",
+      "myProfile": "My profile"
     }
   },
   "clinical": {
@@ -45,6 +72,36 @@
           "description": "Review and approve AI-generated insights."
         }
       }
+    },
+    "auth": {
+      "loginTitle": "Staff Login",
+      "loginSubtitle": "Log in with your Aleris email",
+      "email": "Email",
+      "password": "Password",
+      "login": "Log in",
+      "invalidCredentials": "Invalid email or password",
+      "loginSuccess": "Login successful!"
+    },
+    "dashboard": {
+      "title": "Clinical Dashboard",
+      "greeting": "Hello, {name}!",
+      "todaySchedule": "Today's Schedule",
+      "noAppointments": "No appointments scheduled",
+      "patientsToday": "Patients today",
+      "waiting": "Waiting",
+      "scheduled": "Scheduled",
+      "open": "Open",
+      "quickActions": "Quick Actions",
+      "patientList": "Patient List",
+      "resultsReview": "Results Review",
+      "appointments": "Appointments",
+      "pendingReviews": "Pending Reviews",
+      "noPendingReviews": "No results pending review",
+      "highPriority": "High Priority",
+      "normal": "Normal",
+      "aiInsights": "AI Insights",
+      "noInsights": "No new insights",
+      "review": "Review"
     }
   },
   "admin": {
@@ -73,6 +130,37 @@
           "description": "Manage availability and time slots."
         }
       }
+    },
+    "auth": {
+      "loginTitle": "Admin Login",
+      "loginSubtitle": "Log in with your Aleris admin email",
+      "email": "Email",
+      "password": "Password",
+      "login": "Log in",
+      "invalidCredentials": "Invalid email or password",
+      "loginSuccess": "Login successful!"
+    },
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "greeting": "Hello, {name}!",
+      "totalPatients": "Total Patients",
+      "activeStaff": "Active Staff",
+      "todayAppointments": "Today's Appointments",
+      "pendingOrders": "Pending Orders",
+      "management": "Management",
+      "products": "Products",
+      "productsDesc": "Manage health packages and tests",
+      "people": "People",
+      "peopleDesc": "Staff roster and roles",
+      "schedule": "Schedule",
+      "scheduleDesc": "Availability and time slots",
+      "clinics": "Clinics",
+      "clinicsDesc": "Locations and settings",
+      "topProducts": "Top Products",
+      "orders": "orders",
+      "viewAllProducts": "View all products",
+      "staffOverview": "Staff Overview",
+      "viewAllStaff": "View all staff"
     }
   }
 }

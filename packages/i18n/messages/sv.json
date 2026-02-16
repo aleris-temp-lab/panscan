@@ -11,7 +11,9 @@
     "submit": "Skicka",
     "search": "Sök",
     "filter": "Filtrera",
-    "actions": "Åtgärder"
+    "actions": "Åtgärder",
+    "logout": "Logga ut",
+    "welcome": "Välkommen"
   },
   "patient": {
     "home": {
@@ -21,6 +23,31 @@
         "cta": "Utforska hälsopaket",
         "login": "Logga in"
       }
+    },
+    "auth": {
+      "loginTitle": "Logga in med BankID",
+      "loginSubtitle": "Ange ditt personnummer för att identifiera dig säkert.",
+      "personalNumber": "Personnummer",
+      "loginWithBankID": "Logga in med BankID",
+      "invalidPersonalNumber": "Ange ett giltigt personnummer",
+      "startingBankID": "Startar BankID...",
+      "openBankIDApp": "Öppna BankID-appen",
+      "waitingForAuth": "Väntar på autentisering...",
+      "loginSuccess": "Inloggning lyckades!"
+    },
+    "dashboard": {
+      "title": "Min Hälsa",
+      "greeting": "Hej, {name}!",
+      "upcomingAppointments": "Kommande Bokningar",
+      "noAppointments": "Inga kommande bokningar",
+      "bookAppointment": "Boka tid",
+      "recentResults": "Senaste Resultat",
+      "noResults": "Inga resultat ännu",
+      "viewAllResults": "Visa alla resultat",
+      "quickActions": "Snabbåtgärder",
+      "chatWithEmma": "Chatta med Emma",
+      "browsePackages": "Utforska paket",
+      "myProfile": "Min profil"
     }
   },
   "clinical": {
@@ -45,6 +72,36 @@
           "description": "Granska och godkänn AI-genererade insikter."
         }
       }
+    },
+    "auth": {
+      "loginTitle": "Personalinloggning",
+      "loginSubtitle": "Logga in med din Aleris-e-post",
+      "email": "E-post",
+      "password": "Lösenord",
+      "login": "Logga in",
+      "invalidCredentials": "Ogiltig e-post eller lösenord",
+      "loginSuccess": "Inloggning lyckades!"
+    },
+    "dashboard": {
+      "title": "Klinisk Dashboard",
+      "greeting": "Hej, {name}!",
+      "todaySchedule": "Dagens Schema",
+      "noAppointments": "Inga bokade möten",
+      "patientsToday": "Patienter idag",
+      "waiting": "Väntar",
+      "scheduled": "Bokad",
+      "open": "Öppna",
+      "quickActions": "Snabbåtgärder",
+      "patientList": "Patientlista",
+      "resultsReview": "Resultatgranskning",
+      "appointments": "Bokningar",
+      "pendingReviews": "Väntande granskning",
+      "noPendingReviews": "Inga resultat att granska",
+      "highPriority": "Hög prioritet",
+      "normal": "Normal",
+      "aiInsights": "AI-insikter",
+      "noInsights": "Inga nya insikter",
+      "review": "Granska"
     }
   },
   "admin": {
@@ -73,6 +130,37 @@
           "description": "Hantera tillgänglighet och tidsslottar."
         }
       }
+    },
+    "auth": {
+      "loginTitle": "Admininloggning",
+      "loginSubtitle": "Logga in med din Aleris admin-e-post",
+      "email": "E-post",
+      "password": "Lösenord",
+      "login": "Logga in",
+      "invalidCredentials": "Ogiltig e-post eller lösenord",
+      "loginSuccess": "Inloggning lyckades!"
+    },
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "greeting": "Hej, {name}!",
+      "totalPatients": "Totalt patienter",
+      "activeStaff": "Aktiv personal",
+      "todayAppointments": "Dagens bokningar",
+      "pendingOrders": "Väntande ordrar",
+      "management": "Hantering",
+      "products": "Produkter",
+      "productsDesc": "Hantera hälsopaket och tester",
+      "people": "Personal",
+      "peopleDesc": "Personalregister och roller",
+      "schedule": "Schema",
+      "scheduleDesc": "Tillgänglighet och tidsslottar",
+      "clinics": "Kliniker",
+      "clinicsDesc": "Platser och inställningar",
+      "topProducts": "Topprodukter",
+      "orders": "ordrar",
+      "viewAllProducts": "Visa alla produkter",
+      "staffOverview": "Personalöversikt",
+      "viewAllStaff": "Visa all personal"
     }
   }
 }

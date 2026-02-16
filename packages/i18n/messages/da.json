@@ -11,7 +11,9 @@
     "submit": "Indsend",
     "search": "Søg",
     "filter": "Filtrer",
-    "actions": "Handlinger"
+    "actions": "Handlinger",
+    "logout": "Log ud",
+    "welcome": "Velkommen"
   },
   "patient": {
     "home": {
@@ -21,6 +23,31 @@
         "cta": "Udforsk sundhedspakker",
         "login": "Log ind"
       }
+    },
+    "auth": {
+      "loginTitle": "Log ind med NemID",
+      "loginSubtitle": "Indtast dit CPR-nummer for sikker identifikation.",
+      "personalNumber": "CPR-nummer",
+      "loginWithBankID": "Log ind med NemID",
+      "invalidPersonalNumber": "Indtast venligst et gyldigt CPR-nummer",
+      "startingBankID": "Starter NemID...",
+      "openBankIDApp": "Åbn NemID-appen",
+      "waitingForAuth": "Venter på godkendelse...",
+      "loginSuccess": "Login vellykket!"
+    },
+    "dashboard": {
+      "title": "Mit Helbred",
+      "greeting": "Hej, {name}!",
+      "upcomingAppointments": "Kommende Aftaler",
+      "noAppointments": "Ingen kommende aftaler",
+      "bookAppointment": "Book aftale",
+      "recentResults": "Seneste Resultater",
+      "noResults": "Ingen resultater endnu",
+      "viewAllResults": "Vis alle resultater",
+      "quickActions": "Hurtige handlinger",
+      "chatWithEmma": "Chat med Emma",
+      "browsePackages": "Udforsk pakker",
+      "myProfile": "Min profil"
     }
   },
   "clinical": {
@@ -45,6 +72,36 @@
           "description": "Gennemgå og godkend AI-genereret indsigt."
         }
       }
+    },
+    "auth": {
+      "loginTitle": "Personalelogin",
+      "loginSubtitle": "Log ind med din Aleris-e-mail",
+      "email": "E-mail",
+      "password": "Adgangskode",
+      "login": "Log ind",
+      "invalidCredentials": "Ugyldig e-mail eller adgangskode",
+      "loginSuccess": "Login vellykket!"
+    },
+    "dashboard": {
+      "title": "Klinisk Dashboard",
+      "greeting": "Hej, {name}!",
+      "todaySchedule": "Dagens Program",
+      "noAppointments": "Ingen bookede aftaler",
+      "patientsToday": "Patienter i dag",
+      "waiting": "Venter",
+      "scheduled": "Booket",
+      "open": "Åbn",
+      "quickActions": "Hurtige handlinger",
+      "patientList": "Patientliste",
+      "resultsReview": "Resultatgennemgang",
+      "appointments": "Aftaler",
+      "pendingReviews": "Ventende gennemgange",
+      "noPendingReviews": "Ingen resultater at gennemgå",
+      "highPriority": "Høj prioritet",
+      "normal": "Normal",
+      "aiInsights": "AI-indsigt",
+      "noInsights": "Ingen nye indsigter",
+      "review": "Gennemgå"
     }
   },
   "admin": {
@@ -73,6 +130,37 @@
           "description": "Administrer tilgængelighed og tidslukker."
         }
       }
+    },
+    "auth": {
+      "loginTitle": "Adminlogin",
+      "loginSubtitle": "Log ind med din Aleris admin-e-mail",
+      "email": "E-mail",
+      "password": "Adgangskode",
+      "login": "Log ind",
+      "invalidCredentials": "Ugyldig e-mail eller adgangskode",
+      "loginSuccess": "Login vellykket!"
+    },
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "greeting": "Hej, {name}!",
+      "totalPatients": "Samlet patienter",
+      "activeStaff": "Aktivt personale",
+      "todayAppointments": "Dagens aftaler",
+      "pendingOrders": "Ventende ordrer",
+      "management": "Administration",
+      "products": "Produkter",
+      "productsDesc": "Administrer sundhedspakker og tests",
+      "people": "Personale",
+      "peopleDesc": "Personaleregister og roller",
+      "schedule": "Tidsplan",
+      "scheduleDesc": "Tilgængelighed og tidslukker",
+      "clinics": "Klinikker",
+      "clinicsDesc": "Steder og indstillinger",
+      "topProducts": "Topprodukter",
+      "orders": "ordrer",
+      "viewAllProducts": "Vis alle produkter",
+      "staffOverview": "Personaleoversigt",
+      "viewAllStaff": "Vis alt personale"
     }
   }
 }
