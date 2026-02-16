@@ -48,6 +48,87 @@
       "chatWithEmma": "Chatta med Emma",
       "browsePackages": "Utforska paket",
       "myProfile": "Min profil"
+    },
+    "packages": {
+      "title": "Hälsopaket",
+      "subtitle": "Välj rätt hälsokontroll för dina behov",
+      "myHealth": "Min Hälsa",
+      "login": "Logga in",
+      "popular": "Populär",
+      "includes": "Inkluderar",
+      "more": "till",
+      "addToCart": "Lägg i varukorg",
+      "bookNow": "Boka nu",
+      "whatsIncluded": "Vad ingår",
+      "price": "Pris",
+      "duration": "Längd",
+      "preparation": "Förberedelse",
+      "fasting": "Fasta krävs (8-12 timmar)"
+    },
+    "checkout": {
+      "title": "Kassa",
+      "orderSummary": "Ordersammanfattning",
+      "subtotal": "Delsumma",
+      "total": "Totalt",
+      "payWith": "Betala med",
+      "klarna": "Betala med Klarna",
+      "card": "Kredit-/Betalkort",
+      "processing": "Behandlar...",
+      "complete": "Slutför köp",
+      "secure": "Säker betalning",
+      "termsNotice": "Genom att slutföra köpet godkänner du våra villkor."
+    },
+    "booking": {
+      "title": "Boka din tid",
+      "selectClinic": "Välj klinik",
+      "selectDate": "Välj datum",
+      "selectTime": "Välj tid",
+      "availableSlots": "Tillgängliga tider",
+      "noSlots": "Inga tillgängliga tider detta datum",
+      "confirm": "Bekräfta bokning",
+      "confirmed": "Bokning bekräftad!",
+      "confirmationMessage": "Vi har skickat en bekräftelse till din e-post."
+    },
+    "results": {
+      "title": "Mina Resultat",
+      "subtitle": "Se och följ din hälsodata",
+      "ready": "Klar",
+      "pending": "Väntar",
+      "viewDetails": "Visa detaljer",
+      "downloadPdf": "Ladda ner PDF",
+      "shareWithDoctor": "Dela med läkare",
+      "noResults": "Inga resultat ännu",
+      "bloodPanel": "Blodprov",
+      "dexaScan": "DEXA-skanning",
+      "normal": "Normal",
+      "attention": "Behöver uppmärksamhet",
+      "optimal": "Optimal",
+      "reference": "Referensvärde"
+    },
+    "chat": {
+      "title": "Chatta med Emma",
+      "subtitle": "Din personliga hälsorådgivare",
+      "placeholder": "Fråga Emma om din hälsa...",
+      "send": "Skicka",
+      "typing": "Emma skriver...",
+      "disclaimer": "Emma är en AI-assistent. Vid medicinska nödsituationer, ring 112.",
+      "suggestions": {
+        "explainResults": "Förklara mina senaste resultat",
+        "lifestyle": "Livsstilsrekommendationer",
+        "nextSteps": "Vad bör jag göra härnäst?"
+      }
+    },
+    "consultation": {
+      "title": "Videokonsultation",
+      "connecting": "Ansluter...",
+      "pleaseWait": "Vänta medan vi kopplar dig",
+      "readyToJoin": "Redo att gå med i konsultationen",
+      "joinCall": "Gå med i samtal",
+      "live": "LIVE",
+      "callEnded": "Konsultation avslutad",
+      "callDuration": "Samtalslängd",
+      "backToDashboard": "Tillbaka till översikt",
+      "followUpWithEmma": "Följ upp med Emma"
     }
   },
   "clinical": {

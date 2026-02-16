@@ -48,6 +48,87 @@
       "chatWithEmma": "Chat with Emma",
       "browsePackages": "Browse packages",
       "myProfile": "My profile"
+    },
+    "packages": {
+      "title": "Health Packages",
+      "subtitle": "Choose the right health check for your needs",
+      "myHealth": "My Health",
+      "login": "Log in",
+      "popular": "Popular",
+      "includes": "Includes",
+      "more": "more",
+      "addToCart": "Add to cart",
+      "bookNow": "Book now",
+      "whatsIncluded": "What's included",
+      "price": "Price",
+      "duration": "Duration",
+      "preparation": "Preparation",
+      "fasting": "Fasting required (8-12 hours)"
+    },
+    "checkout": {
+      "title": "Checkout",
+      "orderSummary": "Order Summary",
+      "subtotal": "Subtotal",
+      "total": "Total",
+      "payWith": "Pay with",
+      "klarna": "Pay with Klarna",
+      "card": "Credit/Debit Card",
+      "processing": "Processing...",
+      "complete": "Complete Purchase",
+      "secure": "Secure payment",
+      "termsNotice": "By completing this purchase, you agree to our terms and conditions."
+    },
+    "booking": {
+      "title": "Book Your Appointment",
+      "selectClinic": "Select Clinic",
+      "selectDate": "Select Date",
+      "selectTime": "Select Time",
+      "availableSlots": "Available time slots",
+      "noSlots": "No available slots for this date",
+      "confirm": "Confirm Booking",
+      "confirmed": "Booking Confirmed!",
+      "confirmationMessage": "We've sent a confirmation to your email."
+    },
+    "results": {
+      "title": "My Results",
+      "subtitle": "View and track your health data",
+      "ready": "Ready",
+      "pending": "Pending",
+      "viewDetails": "View details",
+      "downloadPdf": "Download PDF",
+      "shareWithDoctor": "Share with doctor",
+      "noResults": "No results yet",
+      "bloodPanel": "Blood Panel",
+      "dexaScan": "DEXA Scan",
+      "normal": "Normal",
+      "attention": "Needs attention",
+      "optimal": "Optimal",
+      "reference": "Reference range"
+    },
+    "chat": {
+      "title": "Chat with Emma",
+      "subtitle": "Your personal health advisor",
+      "placeholder": "Ask Emma about your health...",
+      "send": "Send",
+      "typing": "Emma is typing...",
+      "disclaimer": "Emma is an AI assistant. For medical emergencies, call 112.",
+      "suggestions": {
+        "explainResults": "Explain my latest results",
+        "lifestyle": "Lifestyle recommendations",
+        "nextSteps": "What should I do next?"
+      }
+    },
+    "consultation": {
+      "title": "Video Consultation",
+      "connecting": "Connecting...",
+      "pleaseWait": "Please wait while we connect you",
+      "readyToJoin": "Ready to join the consultation",
+      "joinCall": "Join Call",
+      "live": "LIVE",
+      "callEnded": "Consultation Ended",
+      "callDuration": "Duration",
+      "backToDashboard": "Back to Dashboard",
+      "followUpWithEmma": "Follow up with Emma"
     }
   },
   "clinical": {
