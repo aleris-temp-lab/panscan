@@ -8,7 +8,12 @@
       "Bash(gh repo create:*)",
       "Bash(git add:*)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd mock auth and dashboards for all three apps\n\n- Patient app: BankID mock login with simulated flow, dashboard with appointments/results\n- Clinical app: Staff email login, dashboard with schedule/pending reviews/AI insights\n- Admin app: Admin email login \\(with role check\\), dashboard with stats/management menu\n\nDemo users:\n- Patient: 199001011234 \\(Anna Andersson\\) or any valid personal number\n- Clinical: doctor@aleris.se, nurse@aleris.se, dietician@aleris.se\n- Admin: admin@aleris.se\n\nAll translations updated for sv/en/no/da\nEOF\n\\)\")",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(apps/patient/src/app/[locale]/page.tsx)",
+      "Bash(apps/clinical/src/app/[locale]/page.tsx)",
+      "Bash(apps/admin/src/app/[locale]/page.tsx)",
+      "Bash(__NEW_LINE_345a208d0d71ebdc__ git add -A)",
+      "Bash(git commit:*)"
     ]
   }
 }
