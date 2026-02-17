@@ -1,42 +1,35 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from '@/i18n/routing'
 import { useTranslations } from 'next-intl'
 
 export default function AdminLoginPage() {
   const t = useTranslations('admin.auth')
   const router = useRouter()
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-  const [error, setError] = useState('')
-  const [isLoading, setIsLoading] = useState(false)
+  const [isSuccess, setIsSuccess] = useState(false)
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setError('')
-    setIsLoading(true)
+  useEffect(() => {
+    // Auto-login with demo admin (Maria Johansson)
+    const autoLogin = async () => {
+      await new Promise(resolve => setTimeout(resolve, 300))
 
-    try {
       const response = await fetch('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ email: 'admin@aleris.se', password: 'demo' }),
       })
 
       if (response.ok) {
+        setIsSuccess(true)
+        await new Promise(resolve => setTimeout(resolve, 200))
         router.push('/dashboard')
         router.refresh()
-      } else {
-        const data = await response.json()
-        setError(data.error || t('invalidCredentials'))
       }
-    } catch {
-      setError(t('invalidCredentials'))
-    } finally {
-      setIsLoading(false)
     }
-  }
+
+    autoLogin()
+  }, [router])
 
   return (
     <main className="min-h-screen bg-petrol flex items-center justify-center p-4">
@@ -51,64 +44,26 @@ export default function AdminLoginPage() {
 
         {/* Login Card */}
         <div className="bg-white rounded-xl shadow-soft p-8">
-          <h2 className="text-xl font-semibold text-petrol mb-2">
-            {t('loginTitle')}
-          </h2>
-          <p className="text-petrol-60 mb-6">
-            {t('loginSubtitle')}
-          </p>
-
-          <form onSubmit={handleSubmit}>
-            <div className="mb-4">
-              <label className="block mb-2 text-sm font-medium text-petrol">
-                {t('email')}
-              </label>
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="admin@aleris.se"
-                className="w-full px-4 py-3 rounded-lg border border-slate bg-white text-petrol placeholder:text-petrol-60 focus:outline-none focus:ring-2 focus:ring-petrol"
-                autoFocus
-              />
+          {!isSuccess ? (
+            <div className="text-center py-8">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-petrol rounded-full mb-4">
+                <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <p className="text-petrol font-medium">{t('loginTitle')}</p>
             </div>
-
-            <div className="mb-4">
-              <label className="block mb-2 text-sm font-medium text-petrol">
-                {t('password')}
-              </label>
-              <input
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="••••••••"
-                className="w-full px-4 py-3 rounded-lg border border-slate bg-white text-petrol placeholder:text-petrol-60 focus:outline-none focus:ring-2 focus:ring-petrol"
-              />
+          ) : (
+            <div className="text-center py-8">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4">
+                <svg className="w-8 h-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <p className="text-petrol font-medium">{t('loginSuccess') || 'Welcome back!'}</p>
             </div>
-
-            {error && (
-              <p className="text-red-600 text-sm mb-4">{error}</p>
-            )}
-
-            <button
-              type="submit"
-              disabled={isLoading}
-              className="w-full bg-orange text-white py-3 rounded-lg font-medium hover:bg-orange-80 transition-colors disabled:opacity-50"
-            >
-              {isLoading ? '...' : t('login')}
-            </button>
-          </form>
-
-          {/* Demo hint */}
-          <div className="mt-6 p-4 bg-sand rounded-lg">
-            <p className="text-sm text-petrol-60">
-              <strong>Demo account:</strong>
-            </p>
-            <ul className="text-sm text-petrol-60 mt-2 space-y-1">
-              <li>admin@aleris.se (Maria Johansson)</li>
-            </ul>
-            <p className="text-sm text-petrol-60 mt-2">Any password works!</p>
-          </div>
+          )}
         </div>
       </div>
     </main>

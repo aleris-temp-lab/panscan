@@ -46,6 +46,7 @@ coverage
 *.local
 *.pdf
 .claude/
+.vercel/
 
 # Session logs (private)
 SESSION_DIARY.md

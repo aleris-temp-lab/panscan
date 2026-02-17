@@ -1,57 +1,37 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from '@/i18n/routing'
 import { useTranslations } from 'next-intl'
 
-type LoginStep = 'input' | 'loading' | 'open-app' | 'success'
+type LoginStep = 'loading' | 'success'
 
 export default function PatientLoginPage() {
   const t = useTranslations('patient.auth')
   const router = useRouter()
-  const [step, setStep] = useState<LoginStep>('input')
-  const [personalNumber, setPersonalNumber] = useState('')
-  const [error, setError] = useState('')
+  const [step, setStep] = useState<LoginStep>('loading')
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setError('')
+  useEffect(() => {
+    // Auto-login with demo user (Anna Andersson)
+    const autoLogin = async () => {
+      await new Promise(resolve => setTimeout(resolve, 300))
 
-    // Basic validation
-    const cleaned = personalNumber.replace(/[\s-]/g, '')
-    if (!/^\d{10,12}$/.test(cleaned)) {
-      setError(t('invalidPersonalNumber'))
-      return
+      const response = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ personalNumber: '199001011234' }),
+      })
+
+      if (response.ok) {
+        setStep('success')
+        await new Promise(resolve => setTimeout(resolve, 200))
+        router.push('/dashboard')
+        router.refresh()
+      }
     }
 
-    // Simulate BankID flow
-    setStep('loading')
-
-    // Wait a bit then show "open app" step
-    await new Promise(resolve => setTimeout(resolve, 1500))
-    setStep('open-app')
-
-    // Wait then complete login
-    await new Promise(resolve => setTimeout(resolve, 2000))
-
-    // Call login API
-    const response = await fetch('/api/auth/login', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ personalNumber: cleaned }),
-    })
-
-    if (response.ok) {
-      setStep('success')
-      await new Promise(resolve => setTimeout(resolve, 1000))
-      router.push('/dashboard')
-      router.refresh()
-    } else {
-      const data = await response.json()
-      setError(data.error || 'Login failed')
-      setStep('input')
-    }
-  }
+    autoLogin()
+  }, [router])
 
   return (
     <main className="min-h-screen bg-sand flex items-center justify-center p-4">
@@ -66,69 +46,12 @@ export default function PatientLoginPage() {
 
         {/* Login Card */}
         <div className="bg-white rounded-xl shadow-soft p-8">
-          {step === 'input' && (
-            <>
-              <h2 className="text-xl font-semibold text-petrol mb-2">
-                {t('loginTitle')}
-              </h2>
-              <p className="text-petrol-60 mb-6">
-                {t('loginSubtitle')}
-              </p>
-
-              <form onSubmit={handleSubmit}>
-                <label className="block mb-2 text-sm font-medium text-petrol">
-                  {t('personalNumber')}
-                </label>
-                <input
-                  type="text"
-                  value={personalNumber}
-                  onChange={(e) => setPersonalNumber(e.target.value)}
-                  placeholder="YYYYMMDD-XXXX"
-                  className="w-full px-4 py-3 rounded-lg border border-slate bg-white text-petrol placeholder:text-petrol-60 focus:outline-none focus:ring-2 focus:ring-petrol mb-4"
-                  autoFocus
-                />
-
-                {error && (
-                  <p className="text-red-600 text-sm mb-4">{error}</p>
-                )}
-
-                <button
-                  type="submit"
-                  className="w-full bg-petrol text-white py-3 rounded-lg font-medium hover:bg-petrol-80 transition-colors flex items-center justify-center gap-2"
-                >
-                  <BankIDIcon />
-                  {t('loginWithBankID')}
-                </button>
-              </form>
-
-              {/* Demo hint */}
-              <div className="mt-6 p-4 bg-sand rounded-lg">
-                <p className="text-sm text-petrol-60">
-                  <strong>Demo:</strong> Try 199001011234 (Anna) or 198505152345 (Erik)
-                </p>
-              </div>
-            </>
-          )}
-
           {step === 'loading' && (
-            <div className="text-center py-8">
-              <div className="inline-flex items-center justify-center w-16 h-16 mb-4">
-                <div className="w-12 h-12 border-4 border-petrol-40 border-t-petrol rounded-full animate-spin" />
-              </div>
-              <p className="text-petrol font-medium">{t('startingBankID')}</p>
-            </div>
-          )}
-
-          {step === 'open-app' && (
             <div className="text-center py-8">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-petrol rounded-full mb-4">
                 <BankIDIcon className="w-8 h-8 text-white" />
               </div>
-              <p className="text-petrol font-medium mb-2">{t('openBankIDApp')}</p>
-              <p className="text-petrol-60 text-sm">{t('waitingForAuth')}</p>
-              <div className="mt-4">
-                <div className="w-8 h-8 border-4 border-petrol-40 border-t-petrol rounded-full animate-spin mx-auto" />
-              </div>
+              <p className="text-petrol font-medium">{t('startingBankID')}</p>
             </div>
           )}
 
