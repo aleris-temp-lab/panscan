@@ -4,7 +4,7 @@ import { getPatientSession } from '@panscan/auth'
 import { Link } from '@/i18n/routing'
 import { LogoutButton } from './logout-button'
 import { LocaleSwitcher } from '@/components/LocaleSwitcher'
-import { ClickableLogo } from '@panscan/ui'
+import { Logo } from '@panscan/ui'
 
 export default async function PatientDashboard({
   params,
@@ -55,7 +55,9 @@ export default async function PatientDashboard({
       {/* Header */}
       <header className="bg-white border-b border-slate">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-          <ClickableLogo width={100} height={36} />
+          <Link href="/dashboard" className="flex items-center">
+            <Logo width={100} height={36} />
+          </Link>
           <div className="flex items-center gap-4">
             <LocaleSwitcher />
             <span className="text-petrol-60">{user.firstName} {user.lastName}</span>
