@@ -83,7 +83,7 @@ export default async function ResultDetailPage({
     redirect('/auth/login')
   }
 
-  const result = resultsData[id]
+  const result = resultsData[`result-${id}`]
   if (!result) {
     notFound()
   }

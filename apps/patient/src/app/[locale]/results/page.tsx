@@ -9,7 +9,7 @@ import { LogoutButton } from '../dashboard/logout-button'
 // Demo results
 const results = [
   {
-    id: 'result-1',
+    id: '1',
     type: 'blood-panel',
     name: 'Comprehensive Blood Panel',
     date: '2026-02-01',
@@ -17,7 +17,7 @@ const results = [
     summary: 'All markers within normal range',
   },
   {
-    id: 'result-2',
+    id: '2',
     type: 'dexa',
     name: 'DEXA Body Scan',
     date: '2026-01-15',
@@ -25,7 +25,7 @@ const results = [
     summary: 'Body fat 18.5%, excellent bone density',
   },
   {
-    id: 'result-3',
+    id: '3',
     type: 'blood-panel',
     name: 'Basic Blood Panel',
     date: '2025-10-20',
