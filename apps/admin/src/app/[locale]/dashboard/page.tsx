@@ -4,7 +4,7 @@ import { getStaffSession } from '@panscan/auth'
 import { Link } from '@/i18n/routing'
 import { LogoutButton } from './logout-button'
 import { LocaleSwitcher } from '@/components/LocaleSwitcher'
-import { Logo } from '@panscan/ui'
+import { ClickableLogo } from '@panscan/ui'
 
 export default async function AdminDashboard({
   params,
@@ -54,9 +54,7 @@ export default async function AdminDashboard({
       {/* Header */}
       <header className="bg-petrol text-white">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/dashboard" className="flex items-center">
-            <Logo width={100} height={36} variant="white" />
-          </Link>
+          <ClickableLogo width={100} height={36} variant="white" />
           <div className="flex items-center gap-4">
             <LocaleSwitcher variant="dark" />
             <span className="text-petrol-40">

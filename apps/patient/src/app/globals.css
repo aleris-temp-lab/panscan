@@ -27,3 +27,88 @@
     @apply rounded-full;
   }
 }
+
+/* 50's Retro Mode - activated by clicking logo */
+:root.retro-mode {
+  --color-petrol: 64 124 126;
+  --color-orange: 255 138 128;
+  --color-sand: 255 245 238;
+}
+
+.retro-mode body {
+  font-family: 'Georgia', 'Times New Roman', serif !important;
+  background: repeating-conic-gradient(
+    rgb(255, 245, 238) 0% 25%,
+    rgb(245, 235, 228) 25% 50%
+  ) 50% / 40px 40px;
+}
+
+.retro-mode header {
+  background: linear-gradient(180deg, #ff8a80 0%, #ffab91 100%) !important;
+  border-bottom: 4px solid #40797e !important;
+  box-shadow: 0 4px 0 #2d5759;
+}
+
+.retro-mode .bg-white {
+  background: linear-gradient(180deg, #fff5ee 0%, #ffe4d4 100%) !important;
+  border: 3px solid #40797e !important;
+  border-radius: 20px !important;
+  box-shadow: 6px 6px 0 #40797e;
+}
+
+.retro-mode .bg-petrol {
+  background: linear-gradient(180deg, #ff8a80 0%, #ff6b6b 100%) !important;
+  border-radius: 999px !important;
+}
+
+.retro-mode .bg-orange {
+  background: linear-gradient(180deg, #80cbc4 0%, #4db6ac 100%) !important;
+  border-radius: 999px !important;
+}
+
+.retro-mode .text-petrol {
+  color: #40797e !important;
+}
+
+.retro-mode h1, .retro-mode h2, .retro-mode h3 {
+  font-family: 'Georgia', serif !important;
+  text-shadow: 2px 2px 0 rgba(64, 124, 126, 0.2);
+}
+
+.retro-mode button, .retro-mode a[class*="rounded"] {
+  border-radius: 999px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  box-shadow: 3px 3px 0 rgba(64, 124, 126, 0.5) !important;
+  transition: all 0.1s ease !important;
+}
+
+.retro-mode button:hover, .retro-mode a[class*="rounded"]:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 rgba(64, 124, 126, 0.5) !important;
+}
+
+.retro-mode button:active, .retro-mode a[class*="rounded"]:active {
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0 rgba(64, 124, 126, 0.5) !important;
+}
+
+.retro-mode .shadow-soft {
+  box-shadow: 6px 6px 0 rgba(64, 124, 126, 0.3) !important;
+}
+
+.retro-mode input {
+  border: 3px solid #40797e !important;
+  border-radius: 999px !important;
+  background: #fff5ee !important;
+}
+
+/* Fun hover effect on logo in retro mode */
+.retro-mode svg path {
+  transition: fill 0.3s ease;
+}
+
+.retro-mode header svg:hover path {
+  fill: #ff6b6b !important;
+}
