@@ -129,6 +129,19 @@
       "callDuration": "Duration",
       "backToDashboard": "Back to Dashboard",
       "followUpWithEmma": "Follow up with Emma"
+    },
+    "profile": {
+      "title": "My Profile",
+      "subtitle": "Manage your account and preferences",
+      "memberSince": "Member since",
+      "personalNumber": "Personal number",
+      "email": "Email",
+      "phone": "Phone",
+      "language": "Language",
+      "dataPrivacy": "Data & Privacy",
+      "downloadData": "Download my data",
+      "manageConsents": "Manage consents",
+      "deleteAccount": "Delete account"
     }
   },
   "clinical": {

@@ -13,7 +13,11 @@
       "Bash(apps/clinical/src/app/[locale]/page.tsx)",
       "Bash(apps/admin/src/app/[locale]/page.tsx)",
       "Bash(__NEW_LINE_345a208d0d71ebdc__ git add -A)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git restore:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)"
     ]
   }
 }

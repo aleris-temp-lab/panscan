@@ -129,6 +129,19 @@
       "callDuration": "Samtalslängd",
       "backToDashboard": "Tillbaka till översikt",
       "followUpWithEmma": "Följ upp med Emma"
+    },
+    "profile": {
+      "title": "Min profil",
+      "subtitle": "Hantera ditt konto och inställningar",
+      "memberSince": "Medlem sedan",
+      "personalNumber": "Personnummer",
+      "email": "E-post",
+      "phone": "Telefon",
+      "language": "Språk",
+      "dataPrivacy": "Data & integritet",
+      "downloadData": "Ladda ner mina uppgifter",
+      "manageConsents": "Hantera samtycken",
+      "deleteAccount": "Radera konto"
     }
   },
   "clinical": {

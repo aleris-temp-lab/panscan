@@ -129,6 +129,19 @@
       "callDuration": "Opkaldsvarighed",
       "backToDashboard": "Tilbage til oversigt",
       "followUpWithEmma": "Følg op med Emma"
+    },
+    "profile": {
+      "title": "Min profil",
+      "subtitle": "Administrer din konto og indstillinger",
+      "memberSince": "Medlem siden",
+      "personalNumber": "CPR-nummer",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "language": "Sprog",
+      "dataPrivacy": "Data og privatliv",
+      "downloadData": "Download mine data",
+      "manageConsents": "Administrer samtykker",
+      "deleteAccount": "Slet konto"
     }
   },
   "clinical": {
