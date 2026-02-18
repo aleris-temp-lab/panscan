@@ -49,16 +49,16 @@ function HomeContent() {
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
-              href="/screening"
+              href="/packages"
               className="rounded-lg bg-orange px-8 py-3 font-medium text-white transition-colors hover:bg-orange-80"
             >
-              {t('hero.screening')}
+              {t('hero.cta')}
             </Link>
             <Link
-              href="/packages"
+              href="/auth/login"
               className="rounded-lg border-2 border-petrol px-8 py-3 font-medium text-petrol transition-colors hover:bg-petrol hover:text-white"
             >
-              {t('hero.cta')}
+              {t('hero.login')}
             </Link>
           </div>
         </div>
@@ -66,4 +66,3 @@ function HomeContent() {
     </main>
   )
 }
-// Build: Mon Feb 16 14:25:25 CET 2026

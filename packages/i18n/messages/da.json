@@ -21,7 +21,6 @@
         "title": "Dit helbred, nemt og sikkert",
         "subtitle": "Bestil sundhedstjek, se dine resultater og få personlig vejledning fra vores eksperter.",
         "cta": "Udforsk sundhedspakker",
-        "screening": "Tjek om det passer dig",
         "login": "Log ind"
       }
     },
@@ -34,42 +33,7 @@
       "startingBankID": "Starter NemID...",
       "openBankIDApp": "Åbn NemID-appen",
       "waitingForAuth": "Venter på godkendelse...",
-      "loginSuccess": "Login vellykket!",
-      "backToHome": "Tilbage til forsiden"
-    },
-    "screening": {
-      "title": "Screeningtjek",
-      "subtitle": "Tjek om EU-behandling passer dig",
-      "welcome": "Hej! Jeg hjælper dig med at finde ud af, om du kan få din hjertebehandling hurtigere gennem EUs patientrettighedsdirektiv. Jeg stiller et par korte spørgsmål.",
-      "backToHome": "Tilbage til forsiden",
-      "placeholder": "Skriv dit svar...",
-      "send": "Send",
-      "typing": "Tjekker...",
-      "answerYes": "Ja",
-      "answerNo": "Nej",
-      "clarify": "Beklager, jeg forstod ikke helt. Kan du svare ja eller nej?",
-      "questions": {
-        "diagnosis": "Er du blevet diagnosticeret med atrieflimren eller en anden hjertearytmi?",
-        "referral": "Har du en henvisning til ablation i Sverige?",
-        "waitTime": "Er din estimerede ventetid længere end 90 dage?",
-        "residency": "Er du folkeregistreret i Sverige med svensk sundhedsforsikring?"
-      },
-      "eligible": "Fremragende! Baseret på dine svar opfylder du kriterierne for at få din behandling gennem EUs patientrettighedsdirektiv (S2-attest). Næste skridt er at logge ind med NemID for at starte din rejse.",
-      "ineligible": {
-        "noDiagnosis": "Desværre er denne tjeneste specifikt for patienter med diagnosticeret hjertearytmi. Vi anbefaler, at du kontakter din praktiserende læge for yderligere undersøgelse.",
-        "noReferral": "For at søge behandling gennem EU-direktivet har du brug for en henvisning til ablation fra din svenske læge. Kontakt din kardiolog for at drøfte dette.",
-        "shortWait": "EUs patientrettighedsdirektiv gælder primært ved ventetider over 90 dage. Med en kortere ventetid kan det være bedre at vente på din svenske tid.",
-        "notResident": "Denne tjeneste henvender sig til patienter folkeregistreret i Sverige med svensk sundhedsforsikring. Kontakt os gerne for at drøfte andre muligheder."
-      },
-      "result": {
-        "eligibleTitle": "Du opfylder kriterierne!",
-        "eligibleDescription": "Baseret på dine svar ser det ud til, at du kan kvalificere dig til hurtigere hjertebehandling gennem EU-direktivet. Log ind med NemID for at komme i gang.",
-        "loginWithBankID": "Log ind med NemID",
-        "ineligibleTitle": "Desværre opfyldes kriterierne ikke",
-        "ineligibleDescription": "Baseret på dine svar ser det ikke ud til, at EU-vejen er det rette alternativ lige nu. Der er dog andre muligheder.",
-        "backToHome": "Tilbage",
-        "contactUs": "Kontakt os"
-      }
+      "loginSuccess": "Login vellykket!"
     },
     "dashboard": {
       "title": "Mit Helbred",

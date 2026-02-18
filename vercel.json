@@ -1,5 +1,0 @@
-{
-  "buildCommand": "npx turbo build --filter=@panscan/patient",
-  "outputDirectory": "apps/patient/.next",
-  "framework": "nextjs"
-}

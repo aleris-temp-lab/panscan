@@ -21,7 +21,6 @@
         "title": "Din helse, enkelt og trygt",
         "subtitle": "Bestill helsesjekker, se resultatene dine og få personlig veiledning fra våre eksperter.",
         "cta": "Utforsk helsepakker",
-        "screening": "Sjekk om det passer for deg",
         "login": "Logg inn"
       }
     },
@@ -34,42 +33,7 @@
       "startingBankID": "Starter BankID...",
       "openBankIDApp": "Åpne BankID-appen",
       "waitingForAuth": "Venter på autentisering...",
-      "loginSuccess": "Innlogging vellykket!",
-      "backToHome": "Tilbake til forsiden"
-    },
-    "screening": {
-      "title": "Screeningsjekk",
-      "subtitle": "Sjekk om EU-behandling passer for deg",
-      "welcome": "Hei! Jeg hjelper deg å finne ut om du kan få hjertebehandlingen din raskere gjennom EUs pasientrettighetsdirektiv. Jeg stiller noen korte spørsmål.",
-      "backToHome": "Tilbake til forsiden",
-      "placeholder": "Skriv svaret ditt...",
-      "send": "Send",
-      "typing": "Sjekker...",
-      "answerYes": "Ja",
-      "answerNo": "Nei",
-      "clarify": "Beklager, jeg forstod ikke helt. Kan du svare ja eller nei?",
-      "questions": {
-        "diagnosis": "Har du fått diagnosen atrieflimmer eller annen hjertearytmi?",
-        "referral": "Har du en henvisning for ablasjon i Sverige?",
-        "waitTime": "Er din estimerte ventetid lenger enn 90 dager?",
-        "residency": "Er du folkeregistrert i Sverige med svensk helseforsikring?"
-      },
-      "eligible": "Utmerket! Basert på svarene dine oppfyller du kriteriene for å få behandlingen din gjennom EUs pasientrettighetsdirektiv (S2-attest). Neste steg er å logge inn med BankID for å starte reisen.",
-      "ineligible": {
-        "noDiagnosis": "Dessverre er denne tjenesten spesifikt for pasienter med diagnostisert hjertearytmi. Vi anbefaler at du kontakter fastlegen din for videre utredning.",
-        "noReferral": "For å søke behandling gjennom EU-direktivet trenger du en henvisning for ablasjon fra din svenske lege. Kontakt kardiologen din for å diskutere dette.",
-        "shortWait": "EUs pasientrettighetsdirektiv gjelder primært ved ventetider over 90 dager. Med kortere ventetid kan det være bedre å vente på din svenske time.",
-        "notResident": "Denne tjenesten retter seg mot pasienter folkeregistrert i Sverige med svensk helseforsikring. Kontakt oss gjerne for å diskutere andre alternativer."
-      },
-      "result": {
-        "eligibleTitle": "Du oppfyller kriteriene!",
-        "eligibleDescription": "Basert på svarene dine ser det ut til at du kan kvalifisere deg for raskere hjertebehandling gjennom EU-direktivet. Logg inn med BankID for å komme i gang.",
-        "loginWithBankID": "Logg inn med BankID",
-        "ineligibleTitle": "Dessverre oppfylles ikke kriteriene",
-        "ineligibleDescription": "Basert på svarene dine ser det ikke ut til at EU-veien er riktig alternativ akkurat nå. Det finnes imidlertid andre muligheter.",
-        "backToHome": "Tilbake",
-        "contactUs": "Kontakt oss"
-      }
+      "loginSuccess": "Innlogging vellykket!"
     },
     "dashboard": {
       "title": "Min Helse",
