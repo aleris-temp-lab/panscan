@@ -21,6 +21,7 @@
         "title": "Your health, simple and safe",
         "subtitle": "Book health checkups, view your results, and get personalized guidance from our experts.",
         "cta": "Explore health packages",
+        "screening": "Check if it's right for you",
         "login": "Log in"
       }
     },
@@ -33,7 +34,42 @@
       "startingBankID": "Starting BankID...",
       "openBankIDApp": "Open the BankID app",
       "waitingForAuth": "Waiting for authentication...",
-      "loginSuccess": "Login successful!"
+      "loginSuccess": "Login successful!",
+      "backToHome": "Back to home"
+    },
+    "screening": {
+      "title": "Screening Check",
+      "subtitle": "Check if EU healthcare is right for you",
+      "welcome": "Hi! I'll help you find out if you can get your heart treatment faster through the EU Patient Rights Directive. I'll ask you a few quick questions.",
+      "backToHome": "Back to home",
+      "placeholder": "Type your answer...",
+      "send": "Send",
+      "typing": "Checking...",
+      "answerYes": "Yes",
+      "answerNo": "No",
+      "clarify": "Sorry, I didn't quite understand. Can you answer yes or no?",
+      "questions": {
+        "diagnosis": "Have you been diagnosed with atrial fibrillation or another cardiac arrhythmia?",
+        "referral": "Do you have a referral for ablation in Sweden?",
+        "waitTime": "Is your estimated wait time longer than 90 days?",
+        "residency": "Are you a registered resident in Sweden with Swedish health insurance?"
+      },
+      "eligible": "Excellent! Based on your answers, you meet the criteria for getting your treatment through the EU Patient Rights Directive (S2 certificate). The next step is to log in with BankID to start your journey.",
+      "ineligible": {
+        "noDiagnosis": "Unfortunately, this service is specifically for patients with a diagnosed cardiac arrhythmia. We recommend contacting your primary care physician for further evaluation.",
+        "noReferral": "To seek care through the EU directive, you need a referral for ablation from your Swedish doctor. Contact your cardiologist to discuss this.",
+        "shortWait": "The EU Patient Rights Directive primarily applies to wait times over 90 days. With a shorter wait time, it may be better to wait for your Swedish appointment.",
+        "notResident": "This service is aimed at patients registered in Sweden with Swedish health insurance. Please contact us to discuss other options."
+      },
+      "result": {
+        "eligibleTitle": "You meet the criteria!",
+        "eligibleDescription": "Based on your answers, it looks like you may qualify for faster heart treatment through the EU directive. Log in with BankID to get started.",
+        "loginWithBankID": "Log in with BankID",
+        "ineligibleTitle": "Unfortunately, the criteria are not met",
+        "ineligibleDescription": "Based on your answers, the EU pathway doesn't seem to be the right option right now. However, there are other possibilities.",
+        "backToHome": "Back",
+        "contactUs": "Contact us"
+      }
     },
     "dashboard": {
       "title": "My Health",
