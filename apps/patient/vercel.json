@@ -1,5 +1,5 @@
 {
-  "installCommand": "cd ../.. && npm ci",
+  "installCommand": "cd ../.. && npm cache clean --force && npm install",
   "buildCommand": "cd ../.. && npx turbo build --filter=@panscan/patient",
   "framework": "nextjs"
 }
